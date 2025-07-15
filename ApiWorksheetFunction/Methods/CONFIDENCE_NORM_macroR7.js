@@ -1,0 +1,43 @@
+/**
+ * R7 Office JavaScript макрос - ApiWorksheetFunction.CONFIDENCE_NORM
+ * 
+ *  Демонстрация использования метода CONFIDENCE_NORM класса ApiWorksheetFunction
+ * https://r7-consult.ru/
+ */
+
+(function() {
+    'use strict';
+    
+    try {
+        // Initialize R7 Office API
+        const api = Api;
+        if (!api) {
+            throw new Error('R7 Office API not available');
+        }
+        
+        // Original code enhanced with error handling:
+        // This example shows how to return the confidence interval for a population mean, using a normal distribution.
+        
+        // How to return the confidence interval for a population mean, using a normal distribution.
+        
+        // Use function to confidence interval for a population mean.
+        
+        let worksheet = Api.GetActiveSheet();
+        let func = Api.GetWorksheetFunction();
+        let ans = func.CONFIDENCE_NORM(0.5, 57, 8);
+        worksheet.GetRange("B2").SetValue(ans);
+        
+        // Success notification
+        console.log('Macro executed successfully');
+        
+    } catch (error) {
+        console.error('Macro execution failed:', error.message);
+        // Optional: Show error to user
+        if (typeof Api !== 'undefined' && Api.GetActiveSheet) {
+            const sheet = Api.GetActiveSheet();
+            if (sheet) {
+                sheet.GetRange('A1').SetValue('Error: ' + error.message);
+            }
+        }
+    }
+})();

@@ -1,0 +1,41 @@
+/**
+ * R7 Office JavaScript макрос - ApiWorksheet.AddOleObject
+ * 
+ *  Демонстрация использования метода AddOleObject класса ApiWorksheet
+ * https://r7-consult.ru/
+ */
+
+(function() {
+    'use strict';
+    
+    try {
+        // Initialize R7 Office API
+        const api = Api;
+        if (!api) {
+            throw new Error('R7 Office API not available');
+        }
+        
+        // Original code enhanced with error handling:
+        // This example adds an OLE object to the sheet with the parameters specified.
+        
+        // How to add an OLE object to the worksheet specifying its url, size, etc.
+        
+        // Insert an OLE object to the worksheet.
+        
+        let worksheet = Api.GetActiveSheet();
+        worksheet.AddOleObject("https://api.R7 Office.com/content/img/docbuilder/examples/ole-object-image.png", 130 * 36000, 90 * 36000, "https://youtu.be/SKGz4pmnpgY", "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}", 0, 2 * 36000, 4, 3 * 36000);
+        
+        // Success notification
+        console.log('Macro executed successfully');
+        
+    } catch (error) {
+        console.error('Macro execution failed:', error.message);
+        // Optional: Show error to user
+        if (typeof Api !== 'undefined' && Api.GetActiveSheet) {
+            const sheet = Api.GetActiveSheet();
+            if (sheet) {
+                sheet.GetRange('A1').SetValue('Error: ' + error.message);
+            }
+        }
+    }
+})();

@@ -1,0 +1,41 @@
+/**
+ * R7 Office JavaScript макрос - ApiWorksheet.FormatAsTable
+ * 
+ *  Демонстрация использования метода FormatAsTable класса ApiWorksheet
+ * https://r7-consult.ru/
+ */
+
+(function() {
+    'use strict';
+    
+    try {
+        // Initialize R7 Office API
+        const api = Api;
+        if (!api) {
+            throw new Error('R7 Office API not available');
+        }
+        
+        // Original code enhanced with error handling:
+        // This example formats the selected range of cells from the sheet as a table.
+        
+        // How to format a range as a table.
+        
+        // Select a range and format it as a table.
+        
+        let worksheet = Api.GetActiveSheet();
+        worksheet.FormatAsTable("A1:E10");
+        
+        // Success notification
+        console.log('Macro executed successfully');
+        
+    } catch (error) {
+        console.error('Macro execution failed:', error.message);
+        // Optional: Show error to user
+        if (typeof Api !== 'undefined' && Api.GetActiveSheet) {
+            const sheet = Api.GetActiveSheet();
+            if (sheet) {
+                sheet.GetRange('A1').SetValue('Error: ' + error.message);
+            }
+        }
+    }
+})();

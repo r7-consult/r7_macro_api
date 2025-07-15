@@ -1,0 +1,45 @@
+/**
+ * R7 Office JavaScript макрос - ApiRange.GetCharacters
+ * 
+ *  Демонстрация использования метода GetCharacters класса ApiRange
+ * https://r7-consult.ru/
+ */
+
+(function() {
+    'use strict';
+    
+    try {
+        // Initialize R7 Office API
+        const api = Api;
+        if (!api) {
+            throw new Error('R7 Office API not available');
+        }
+        
+        // Original code enhanced with error handling:
+        // This example shows how to get the ApiCharacters object that represents a range of characters within the object text.
+        
+        // How to get range characters.
+        
+        // Get the range characters, get their font object and set it to bold.
+        
+        let worksheet = Api.GetActiveSheet();
+        let range = worksheet.GetRange("B1");
+        range.SetValue("This is just a sample text.");
+        let characters = range.GetCharacters(9, 4);
+        let font = characters.GetFont();
+        font.SetBold(true);
+        
+        // Success notification
+        console.log('Macro executed successfully');
+        
+    } catch (error) {
+        console.error('Macro execution failed:', error.message);
+        // Optional: Show error to user
+        if (typeof Api !== 'undefined' && Api.GetActiveSheet) {
+            const sheet = Api.GetActiveSheet();
+            if (sheet) {
+                sheet.GetRange('A1').SetValue('Error: ' + error.message);
+            }
+        }
+    }
+})();

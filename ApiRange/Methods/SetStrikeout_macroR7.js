@@ -1,0 +1,43 @@
+/**
+ * R7 Office JavaScript макрос - ApiRange.SetStrikeout
+ * 
+ *  Демонстрация использования метода SetStrikeout класса ApiRange
+ * https://r7-consult.ru/
+ */
+
+(function() {
+    'use strict';
+    
+    try {
+        // Initialize R7 Office API
+        const api = Api;
+        if (!api) {
+            throw new Error('R7 Office API not available');
+        }
+        
+        // Original code enhanced with error handling:
+        // This example specifies that the contents of the cell is displayed with a single horizontal line through the center of the contents.
+        
+        // How to add strikeout to the cell value.
+        
+        // Get a range and add strikeout to its text.
+        
+        let worksheet = Api.GetActiveSheet();
+        worksheet.GetRange("A2").SetValue("Struckout text");
+        worksheet.GetRange("A2").SetStrikeout(true);
+        worksheet.GetRange("A3").SetValue("Normal text");
+        
+        // Success notification
+        console.log('Macro executed successfully');
+        
+    } catch (error) {
+        console.error('Macro execution failed:', error.message);
+        // Optional: Show error to user
+        if (typeof Api !== 'undefined' && Api.GetActiveSheet) {
+            const sheet = Api.GetActiveSheet();
+            if (sheet) {
+                sheet.GetRange('A1').SetValue('Error: ' + error.message);
+            }
+        }
+    }
+})();

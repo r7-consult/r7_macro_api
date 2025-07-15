@@ -1,0 +1,44 @@
+/**
+ * R7 Office JavaScript макрос - ApiRange.SetWrap
+ * 
+ *  Демонстрация использования метода SetWrap класса ApiRange
+ * https://r7-consult.ru/
+ */
+
+(function() {
+    'use strict';
+    
+    try {
+        // Initialize R7 Office API
+        const api = Api;
+        if (!api) {
+            throw new Error('R7 Office API not available');
+        }
+        
+        // Original code enhanced with error handling:
+        // This example specifies whether the words in the cell must be wrapped to fit the cell size or not.
+        
+        // How to wrapp a text in the cell.
+        
+        // Get a range and make its content wrapped.
+        
+        let worksheet = Api.GetActiveSheet();
+        let range = worksheet.GetRange("A1");
+        range.SetValue("This is the text wrapped to fit the cell size.");
+        range.SetWrap(true);
+        worksheet.GetRange("A3").SetValue("The text in the cell A1 is wrapped: " + range.GetWrapText());
+        
+        // Success notification
+        console.log('Macro executed successfully');
+        
+    } catch (error) {
+        console.error('Macro execution failed:', error.message);
+        // Optional: Show error to user
+        if (typeof Api !== 'undefined' && Api.GetActiveSheet) {
+            const sheet = Api.GetActiveSheet();
+            if (sheet) {
+                sheet.GetRange('A1').SetValue('Error: ' + error.message);
+            }
+        }
+    }
+})();
