@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetAreas
- * 
- *  Демонстрация использования метода GetAreas класса ApiRange
- * https://r7-consult.ru/
+ * @file GetAreas_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetAreas
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a collection of ranges.
+ * It sets a value in range B1:D1, selects it, gets its areas, and then displays the count of ranges in the areas.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить коллекцию диапазонов.
+ * Он устанавливает значение в диапазоне B1:D1, выбирает его, получает его области, а затем отображает количество диапазонов в областях.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

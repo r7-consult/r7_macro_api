@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetWorksheet
- * 
- *  Демонстрация использования метода GetWorksheet класса ApiRange
- * https://r7-consult.ru/
+ * @file GetWorksheet_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetWorksheet
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the Worksheet object that represents the worksheet containing the specified range.
+ * It sets a value in a range, gets its worksheet, and then displays the worksheet's name.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект Worksheet, представляющий лист, содержащий указанный диапазон.
+ * Он устанавливает значение в диапазоне, получает его лист, а затем отображает имя листа.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

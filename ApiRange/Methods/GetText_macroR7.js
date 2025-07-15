@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetText
- * 
- *  Демонстрация использования метода GetText класса ApiRange
- * https://r7-consult.ru/
+ * @file GetText_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetText
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the text of a specified range.
+ * It sets values in a range and then displays the text from the first cell in that range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить текст указанного диапазона.
+ * Он устанавливает значения в диапазоне, а затем отображает текст из первой ячейки в этом диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

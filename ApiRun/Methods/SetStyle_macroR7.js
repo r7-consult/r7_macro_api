@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetStyle
- * 
- *  Демонстрация использования метода SetStyle класса ApiRun
- * https://r7-consult.ru/
+ * @file SetStyle_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetStyle
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set a style to a run.
+ * It creates a shape, adds a run with normal text, and then adds another run with its own style.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить стиль для запуска.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск со своим собственным стилем.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

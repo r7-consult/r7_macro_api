@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetRowAxisLayout
- * 
- *  Демонстрация использования метода SetRowAxisLayout класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetRowAxisLayout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetRowAxisLayout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the row axis layout of a pivot table.
+ * It creates a pivot table, adds data and fields, and then sets the row axis layout to 'Tabular'.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить макет оси строк сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем устанавливает макет оси строк на «Табличный».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

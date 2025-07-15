@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetRowRange
- * 
- *  Демонстрация использования метода GetRowRange класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetRowRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetRowRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the row range of a pivot table.
+ * It creates a pivot table, adds data and fields, and then selects its row range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить диапазон строк сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем выбирает диапазон ее строк.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

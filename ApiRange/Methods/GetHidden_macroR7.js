@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetHidden
- * 
- *  Демонстрация использования метода GetHidden класса ApiRange
- * https://r7-consult.ru/
+ * @file GetHidden_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetHidden
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the hidden property of a range.
+ * It hides rows 1 to 3, sets values in cells A1:C1, and then displays whether the range is hidden.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить скрытое свойство диапазона.
+ * Он скрывает строки с 1 по 3, устанавливает значения в ячейках A1:C1, а затем отображает, скрыт ли диапазон.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

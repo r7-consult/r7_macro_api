@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetLayoutBlankLine
- * 
- *  Демонстрация использования метода SetLayoutBlankLine класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetLayoutBlankLine_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetLayoutBlankLine
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the layout blank line property of a pivot table.
+ * It creates a pivot table, adds data and fields, and then sets the blank line property to true.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить свойство пустой строки макета сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем устанавливает свойство пустой строки в значение true.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

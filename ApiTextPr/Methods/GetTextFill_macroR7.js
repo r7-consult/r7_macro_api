@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetTextFill
- * 
- *  Демонстрация использования метода GetTextFill класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetTextFill_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetTextFill
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the text fill property.
+ * It creates a shape, adds a run with text, sets its text fill, and then displays the fill type.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство заливки текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его заливку текста, а затем отображает тип заливки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

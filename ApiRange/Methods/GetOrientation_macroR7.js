@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetOrientation
- * 
- *  Демонстрация использования метода GetOrientation класса ApiRange
- * https://r7-consult.ru/
+ * @file GetOrientation_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetOrientation
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the orientation of a range.
+ * It sets values in a range, sets its orientation to "xlUpward", and then displays the orientation.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить ориентацию диапазона.
+ * Он устанавливает значения в диапазоне, устанавливает его ориентацию на «xlUpward», а затем отображает ориентацию.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

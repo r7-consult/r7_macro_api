@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetValue
- * 
- *  Демонстрация использования метода GetValue класса ApiRange
- * https://r7-consult.ru/
+ * @file GetValue_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetValue
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the value of a specified range.
+ * It sets a value in cell A1, gets its value, and then displays it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить значение указанного диапазона.
+ * Он устанавливает значение в ячейке A1, получает его значение, а затем отображает его.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

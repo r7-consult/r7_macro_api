@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetVertAlign
- * 
- *  Демонстрация использования метода SetVertAlign класса ApiRun
- * https://r7-consult.ru/
+ * @file SetVertAlign_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetVertAlign
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+ * It creates a shape, adds a run with normal text, and then adds three more runs with text aligned to subscript, baseline, and superscript.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать выравнивание, которое будет применяться к содержимому текущего запуска относительно внешнего вида текстового запуска по умолчанию.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще три запуска с текстом, выровненным по подстрочному, базовому и надстрочному индексам.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

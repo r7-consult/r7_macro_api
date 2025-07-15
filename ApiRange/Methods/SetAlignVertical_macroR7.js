@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetAlignVertical
- * 
- *  Демонстрация использования метода SetAlignVertical класса ApiRange
- * https://r7-consult.ru/
+ * @file SetAlignVertical_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetAlignVertical
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the vertical alignment of the text in a cell range.
+ * It sets a value in cell A2 and then sets the vertical alignment of the range A1:D5 to "distributed".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить вертикальное выравнивание текста в диапазоне ячеек.
+ * Он устанавливает значение в ячейке A2, а затем устанавливает вертикальное выравнивание диапазона A1:D5 по «распределенному».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

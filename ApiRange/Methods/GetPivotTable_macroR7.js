@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetPivotTable
- * 
- *  Демонстрация использования метода GetPivotTable класса ApiRange
- * https://r7-consult.ru/
+ * @file GetPivotTable_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetPivotTable
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the pivot table of the current range.
+ * It creates a pivot table, adds data and fields, and then retrieves the pivot table associated with a specific cell and adds data fields to it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить сводную таблицу текущего диапазона.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем извлекает сводную таблицу, связанную с определенной ячейкой, и добавляет в нее поля данных.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

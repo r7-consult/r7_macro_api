@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetDoubleStrikeout
- * 
- *  Демонстрация использования метода SetDoubleStrikeout класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetDoubleStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetDoubleStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+ * It creates a shape, adds a run with text, sets its double strikethrough property, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое запуска отображается двумя горизонтальными линиями через каждый символ, отображаемый в строке.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство двойного зачеркивания, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

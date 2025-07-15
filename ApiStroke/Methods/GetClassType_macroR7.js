@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiStroke.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiStroke
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiStroke.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiStroke object.
+ * It creates a linear gradient fill with two gradient stops, applies it to a shape, and then displays the class type of the stroke object.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiStroke.
+ * Он создает линейную градиентную заливку с двумя градиентными остановками, применяет ее к фигуре, а затем отображает тип класса объекта обводки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

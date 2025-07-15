@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.FormatAsTable
- * 
- *  Демонстрация использования метода FormatAsTable класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file FormatAsTable_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.FormatAsTable
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to format the selected range of cells from the sheet as a table.
+ * It formats the range A1:E10 as a table.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как отформатировать выбранный диапазон ячеек листа как таблицу.
+ * Он форматирует диапазон A1:E10 как таблицу.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiShape.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiShape
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiShape.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiShape object.
+ * It creates a shape, and then displays the class type of the shape object.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiShape.
+ * Он создает фигуру, а затем отображает тип класса объекта фигуры.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

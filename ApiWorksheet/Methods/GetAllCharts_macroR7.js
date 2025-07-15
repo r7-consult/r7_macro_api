@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllCharts
- * 
- *  Демонстрация использования метода GetAllCharts класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllCharts_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllCharts
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all charts from the sheet.
+ * It creates a chart, sets its properties, and then retrieves all charts from the worksheet to modify the first one.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все диаграммы с листа.
+ * Он создает диаграмму, устанавливает ее свойства, а затем извлекает все диаграммы из листа для изменения первой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

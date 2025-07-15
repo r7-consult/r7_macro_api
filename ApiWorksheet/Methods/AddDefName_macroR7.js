@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddDefName
- * 
- *  Демонстрация использования метода AddDefName класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddDefName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddDefName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a new name to the worksheet.
+ * It sets values in a range, adds a defined name to it, and then displays a confirmation message.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить новое имя на лист.
+ * Он устанавливает значения в диапазоне, добавляет к нему определенное имя, а затем отображает сообщение с подтверждением.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

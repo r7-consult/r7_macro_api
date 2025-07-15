@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetOrientation
- * 
- *  Демонстрация использования метода SetOrientation класса ApiRange
- * https://r7-consult.ru/
+ * @file SetOrientation_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetOrientation
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the orientation of a cell range.
+ * It sets values in a range and then sets its orientation to "xlUpward".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить ориентацию диапазона ячеек.
+ * Он устанавливает значения в диапазоне, а затем устанавливает его ориентацию на «xlUpward».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

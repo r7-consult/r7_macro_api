@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetFillColor
- * 
- *  Демонстрация использования метода GetFillColor класса ApiRange
- * https://r7-consult.ru/
+ * @file GetFillColor_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetFillColor
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the background color for a cell range.
+ * It sets a background color for cell A1, gets the color, and then applies it to cell A3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить цвет фона для диапазона ячеек.
+ * Он устанавливает цвет фона для ячейки A1, получает цвет, а затем применяет его к ячейке A3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

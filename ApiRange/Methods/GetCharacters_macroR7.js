@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetCharacters
- * 
- *  Демонстрация использования метода GetCharacters класса ApiRange
- * https://r7-consult.ru/
+ * @file GetCharacters_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetCharacters
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ApiCharacters object that represents a range of characters within the object text.
+ * It sets a value in cell B1, gets a range of characters from it, and then makes their font bold.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект ApiCharacters, представляющий диапазон символов в тексте объекта.
+ * Он устанавливает значение в ячейке B1, получает из него диапазон символов, а затем делает их шрифт жирным.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

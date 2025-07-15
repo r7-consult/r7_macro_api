@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetAlignHorizontal
- * 
- *  Демонстрация использования метода SetAlignHorizontal класса ApiRange
- * https://r7-consult.ru/
+ * @file SetAlignHorizontal_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetAlignHorizontal
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the horizontal alignment of the text in a cell range.
+ * It sets a value in cell A2 and then sets the horizontal alignment of the range A1:D5 to "center".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить горизонтальное выравнивание текста в диапазоне ячеек.
+ * Он устанавливает значение в ячейке A2, а затем устанавливает горизонтальное выравнивание диапазона A1:D5 по центру.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

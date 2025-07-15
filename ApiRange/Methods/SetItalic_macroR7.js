@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetItalic
- * 
- *  Демонстрация использования метода SetItalic класса ApiRange
- * https://r7-consult.ru/
+ * @file SetItalic_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetItalic
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the italic property to the text characters in a cell.
+ * It sets a value in cell A2 and then makes it italic.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить свойство курсива для текстовых символов в ячейке.
+ * Он устанавливает значение в ячейке A2, а затем делает его курсивом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

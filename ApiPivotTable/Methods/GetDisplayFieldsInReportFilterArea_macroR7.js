@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetDisplayFieldsInReportFilterArea
- * 
- *  Демонстрация использования метода GetDisplayFieldsInReportFilterArea класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetDisplayFieldsInReportFilterArea_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetDisplayFieldsInReportFilterArea
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the display fields in the report filter area of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays the type and report filter fields information.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить поля отображения в области фильтра отчета сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает информацию о типе и полях фильтра отчета.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

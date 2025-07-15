@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddProtectedRange
- * 
- *  Демонстрация использования метода AddProtectedRange класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddProtectedRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddProtectedRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a new protected range to the worksheet.
+ * It sets values in a range and then adds a protected range to it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить новый защищенный диапазон на лист.
+ * Он устанавливает значения в диапазоне, а затем добавляет к нему защищенный диапазон.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetOffset
- * 
- *  Демонстрация использования метода SetOffset класса ApiRange
- * https://r7-consult.ru/
+ * @file SetOffset_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetOffset
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the cell offset.
+ * It sets a value in cell B3, then sets its offset by 2 rows and 2 columns, and then sets a new value in the new range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить смещение ячейки.
+ * Он устанавливает значение в ячейке B3, затем устанавливает его смещение на 2 строки и 2 столбца, а затем устанавливает новое значение в новом диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

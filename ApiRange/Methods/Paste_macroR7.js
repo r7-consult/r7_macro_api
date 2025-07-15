@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Paste
- * 
- *  Демонстрация использования метода Paste класса ApiRange
- * https://r7-consult.ru/
+ * @file Paste_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Paste
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to paste a range to a specified destination.
+ * It sets values in range B4:D4 and then pastes them to range A1:C1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вставить диапазон в указанное место назначения.
+ * Он устанавливает значения в диапазоне B4:D4, а затем вставляет их в диапазон A1:C1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

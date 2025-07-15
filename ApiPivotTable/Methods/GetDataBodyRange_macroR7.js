@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetDataBodyRange
- * 
- *  Демонстрация использования метода GetDataBodyRange класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetDataBodyRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetDataBodyRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the data body range of a pivot table.
+ * It creates a pivot table, adds data and fields, and then selects its data body range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить диапазон тела данных сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем выбирает диапазон тела ее данных.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

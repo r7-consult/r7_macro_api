@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetTextPr
- * 
- *  Демонстрация использования метода SetTextPr класса ApiRun
- * https://r7-consult.ru/
+ * @file SetTextPr_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetTextPr
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text properties to the current run.
+ * It creates a shape, adds a run with text, retrieves its text properties, sets the font size and bold property, and then applies these properties to the run.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить текстовые свойства для текущего запуска.
+ * Он создает фигуру, добавляет запуск с текстом, извлекает его текстовые свойства, устанавливает размер шрифта и свойство жирности, а затем применяет эти свойства к запуску.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

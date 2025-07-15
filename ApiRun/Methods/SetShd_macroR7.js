@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetShd
- * 
- *  Демонстрация использования метода SetShd класса ApiRun
- * https://r7-consult.ru/
+ * @file SetShd_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetShd
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify the shading applied to the contents of the current text run.
+ * It creates a shape, adds a run with normal text, and then adds another run with orange shading.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать затенение, применяемое к содержимому текущего текстового запуска.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с оранжевым затенением.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetLayoutSubtotals
- * 
- *  Демонстрация использования метода SetLayoutSubtotals класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetLayoutSubtotals_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetLayoutSubtotals
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the layout subtotals property of a pivot table.
+ * It creates a pivot table, adds data and fields, and then sets the subtotals to false.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить промежуточные итоги макета сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем устанавливает промежуточные итоги в значение false.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

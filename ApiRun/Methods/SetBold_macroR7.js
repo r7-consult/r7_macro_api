@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetBold
- * 
- *  Демонстрация использования метода SetBold класса ApiRun
- * https://r7-consult.ru/
+ * @file SetBold_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetBold
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the bold property to the text characters in a run.
+ * It creates a shape, adds a run with normal text, and then adds another run with bold text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить свойство жирности для текстовых символов в запуске.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с жирным текстом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

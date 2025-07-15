@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddShape
- * 
- *  Демонстрация использования метода AddShape класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddShape_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddShape
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a shape to the sheet with the specified parameters.
+ * It creates a linear gradient fill and a stroke, and then adds a flowchart shape to the worksheet with these properties.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить фигуру на лист с указанными параметрами.
+ * Он создает линейную градиентную заливку и обводку, а затем добавляет фигуру блок-схемы на лист с этими свойствами.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

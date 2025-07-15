@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetSpacing
- * 
- *  Демонстрация использования метода SetSpacing класса ApiRun
- * https://r7-consult.ru/
+ * @file SetSpacing_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetSpacing
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text spacing measured in twentieths of a point.
+ * It creates a shape, adds a run with normal text, and then adds another run with text spacing set to 4 points.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить межстрочный интервал, измеряемый в двадцатых долях пункта.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с межстрочным интервалом, установленным на 4 пункта.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

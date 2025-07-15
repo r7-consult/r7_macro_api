@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetRowHeight
- * 
- *  Демонстрация использования метода SetRowHeight класса ApiRange
- * https://r7-consult.ru/
+ * @file SetRowHeight_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetRowHeight
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the row height value.
+ * It sets the height of row 1 to 32.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить значение высоты строки.
+ * Он устанавливает высоту строки 1 на 32.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

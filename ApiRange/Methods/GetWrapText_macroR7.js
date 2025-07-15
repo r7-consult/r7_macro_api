@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetWrapText
- * 
- *  Демонстрация использования метода GetWrapText класса ApiRange
- * https://r7-consult.ru/
+ * @file GetWrapText_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetWrapText
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the wrap text property of a range.
+ * It sets a value in cell A1, sets its wrap text property to true, and then displays whether the text is wrapped.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство переноса текста диапазона.
+ * Он устанавливает значение в ячейке A1, устанавливает для него свойство переноса текста в значение true, а затем отображает, переносится ли текст.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

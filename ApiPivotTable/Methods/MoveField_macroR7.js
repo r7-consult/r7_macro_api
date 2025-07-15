@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.MoveField
- * 
- *  Демонстрация использования метода MoveField класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file MoveField_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.MoveField
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to move a pivot field.
+ * It creates a pivot table, adds data and fields, and then moves the 'Style' field to the columns area after a delay.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как переместить поле сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем перемещает поле «Стиль» в область столбцов с задержкой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

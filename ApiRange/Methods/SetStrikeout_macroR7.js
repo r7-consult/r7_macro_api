@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetStrikeout
- * 
- *  Демонстрация использования метода SetStrikeout класса ApiRange
- * https://r7-consult.ru/
+ * @file SetStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the cell are displayed with a single horizontal line through the center of the contents.
+ * It sets a value in cell A2 and then applies strikethrough to it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое ячейки отображается с одной горизонтальной линией через центр содержимого.
+ * Он устанавливает значение в ячейке A2, а затем применяет к нему зачеркивание.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

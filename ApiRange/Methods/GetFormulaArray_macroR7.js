@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetFormulaArray
- * 
- *  Демонстрация использования метода GetFormulaArray класса ApiRange
- * https://r7-consult.ru/
+ * @file GetFormulaArray_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetFormulaArray
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the array formula of a range.
+ * It sets an array formula in range A1:A3 and then displays the array formula for each cell in that range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить формулу массива диапазона.
+ * Он устанавливает формулу массива в диапазоне A1:A3, а затем отображает формулу массива для каждой ячейки в этом диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

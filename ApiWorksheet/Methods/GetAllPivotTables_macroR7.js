@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllPivotTables
- * 
- *  Демонстрация использования метода GetAllPivotTables класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllPivotTables_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllPivotTables
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all pivot tables from the sheet.
+ * It creates multiple pivot tables, and then iterates through them to add a data field to each.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все сводные таблицы с листа.
+ * Он создает несколько сводных таблиц, а затем перебирает их, чтобы добавить поле данных к каждой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

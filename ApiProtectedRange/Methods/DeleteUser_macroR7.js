@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRange.DeleteUser
- * 
- *  Демонстрация использования метода DeleteUser класса ApiProtectedRange
- * https://r7-consult.ru/
+ * @file DeleteUser_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRange.DeleteUser
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to delete a user from a protected range.
+ * It adds a protected range to the worksheet, adds a user to it, and then deletes that user.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как удалить пользователя из защищенного диапазона.
+ * Он добавляет защищенный диапазон на лист, добавляет в него пользователя, а затем удаляет этого пользователя.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Insert
- * 
- *  Демонстрация использования метода Insert класса ApiRange
- * https://r7-consult.ru/
+ * @file Insert_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Insert
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to insert a cell or a range of cells into the worksheet and shifts other cells away to make space.
+ * It sets values in cells B4, C4, D4, and C5, and then inserts a cell at C4, shifting cells down.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вставить ячейку или диапазон ячеек в лист и сдвинуть другие ячейки, чтобы освободить место.
+ * Он устанавливает значения в ячейках B4, C4, D4 и C5, а затем вставляет ячейку в C4, сдвигая ячейки вниз.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

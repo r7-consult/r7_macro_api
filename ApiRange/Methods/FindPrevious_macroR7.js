@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.FindPrevious
- * 
- *  Демонстрация использования метода FindPrevious класса ApiRange
- * https://r7-consult.ru/
+ * @file FindPrevious_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.FindPrevious
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to find the previous cell that matches specific conditions within a range.
+ * It sets up a sample data table, finds the first and next occurrences of a value, and then finds and modifies the previous occurrence.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как найти предыдущую ячейку, соответствующую определенным условиям в диапазоне.
+ * Он настраивает образец таблицы данных, находит первое и следующее вхождения значения, а затем находит и изменяет предыдущее вхождение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

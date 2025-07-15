@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetFontFamily
- * 
- *  Демонстрация использования метода SetFontFamily класса ApiRun
- * https://r7-consult.ru/
+ * @file SetFontFamily_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetFontFamily
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the specified font family as the font name for a text run.
+ * It creates a shape, adds a run with normal text, and then adds another run with the font family set to 'Comic Sans MS'.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить указанное семейство шрифтов в качестве имени шрифта для текстового запуска.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с семейством шрифтов, установленным на «Comic Sans MS».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

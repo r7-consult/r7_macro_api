@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.PivotValueCell
- * 
- *  Демонстрация использования метода PivotValueCell класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file PivotValueCell_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.PivotValueCell
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a pivot value cell using its position.
+ * It creates a pivot table, adds data and fields, and then displays the value of a specific cell in the pivot table.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить ячейку значения сводной таблицы, используя ее положение.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает значение определенной ячейки в сводной таблице.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

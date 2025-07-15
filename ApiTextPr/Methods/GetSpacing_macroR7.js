@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetSpacing
- * 
- *  Демонстрация использования метода GetSpacing класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetSpacing_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetSpacing
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the text spacing property.
+ * It creates a shape, adds a run with text, sets its spacing, and then displays the spacing value.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство интервала между текстами.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его интервал, а затем отображает значение интервала.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

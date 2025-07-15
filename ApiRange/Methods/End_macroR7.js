@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.End
- * 
- *  Демонстрация использования метода End класса ApiRange
- * https://r7-consult.ru/
+ * @file End_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.End
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a Range object that represents the end in the specified direction within a given range.
+ * It gets a range and then fills the cell at the end of the range in the "xlToLeft" direction with a color.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект Range, представляющий конец в указанном направлении в заданном диапазоне.
+ * Он получает диапазон, а затем заполняет ячейку в конце диапазона в направлении «xlToLeft» цветом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

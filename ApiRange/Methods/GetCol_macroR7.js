@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetCol
- * 
- *  Демонстрация использования метода GetCol класса ApiRange
- * https://r7-consult.ru/
+ * @file GetCol_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetCol
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the column number for the selected cell.
+ * It gets the column of cell D9 and then displays its value.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить номер столбца для выбранной ячейки.
+ * Он получает столбец ячейки D9, а затем отображает его значение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

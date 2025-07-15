@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetSpacing
- * 
- *  Демонстрация использования метода SetSpacing класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetSpacing_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetSpacing
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text spacing measured in twentieths of a point.
+ * It creates a shape, adds a run with text, sets its spacing, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить межстрочный интервал, измеряемый в двадцатых долях пункта.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его интервал, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

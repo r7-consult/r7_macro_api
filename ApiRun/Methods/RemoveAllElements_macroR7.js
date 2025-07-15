@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.RemoveAllElements
- * 
- *  Демонстрация использования метода RemoveAllElements класса ApiRun
- * https://r7-consult.ru/
+ * @file RemoveAllElements_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.RemoveAllElements
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to remove all elements from a run.
+ * It creates a shape, adds a run with text, removes all elements from it, and then adds new text to confirm the clearing.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как удалить все элементы из запуска.
+ * Он создает фигуру, добавляет запуск с текстом, удаляет из него все элементы, а затем добавляет новый текст для подтверждения очистки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

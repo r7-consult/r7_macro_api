@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetColumnWidth
- * 
- *  Демонстрация использования метода GetColumnWidth класса ApiRange
- * https://r7-consult.ru/
+ * @file GetColumnWidth_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetColumnWidth
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the column width value of a range.
+ * It gets the column width of cell A1 and then displays it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить значение ширины столбца диапазона.
+ * Он получает ширину столбца ячейки A1, а затем отображает ее.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

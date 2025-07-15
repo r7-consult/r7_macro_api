@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetCount
- * 
- *  Демонстрация использования метода GetCount класса ApiRange
- * https://r7-consult.ru/
+ * @file GetCount_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetCount
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the number of cells in a range.
+ * It sets values in a range and then displays the count of cells in that range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить количество ячеек в диапазоне.
+ * Он устанавливает значения в диапазоне, а затем отображает количество ячеек в этом диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

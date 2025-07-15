@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRangeUserInfo.GetId
- * 
- *  Демонстрация использования метода GetId класса ApiProtectedRangeUserInfo
- * https://r7-consult.ru/
+ * @file GetId_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRangeUserInfo.GetId
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ID of a protected range user.
+ * It adds a protected range to the worksheet, adds a user to it, and then displays the user's ID.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить идентификатор пользователя защищенного диапазона.
+ * Он добавляет защищенный диапазон на лист, добавляет в него пользователя, а затем отображает идентификатор пользователя.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

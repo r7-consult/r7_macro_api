@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetStrikeout
- * 
- *  Демонстрация использования метода SetStrikeout класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the run are displayed with a single horizontal line through the center of the line.
+ * It creates a shape, adds a run with text, sets its strikethrough property, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое запуска отображается одной горизонтальной линией через центр строки.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство зачеркивания, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

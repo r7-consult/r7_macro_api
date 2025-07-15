@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetStyleName
- * 
- *  Демонстрация использования метода GetStyleName класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetStyleName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetStyleName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the style name of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays its style name.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить имя стиля сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает имя ее стиля.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

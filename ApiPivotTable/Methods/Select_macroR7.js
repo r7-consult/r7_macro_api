@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.Select
- * 
- *  Демонстрация использования метода Select класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file Select_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.Select
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to select a pivot table.
+ * It creates a pivot table, adds data and fields, and then selects the entire pivot table.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как выбрать сводную таблицу.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем выбирает всю сводную таблицу.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

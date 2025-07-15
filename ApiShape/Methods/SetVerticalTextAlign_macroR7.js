@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiShape.SetVerticalTextAlign
- * 
- *  Демонстрация использования метода SetVerticalTextAlign класса ApiShape
- * https://r7-consult.ru/
+ * @file SetVerticalTextAlign_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiShape.SetVerticalTextAlign
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the vertical alignment to the shape content where a paragraph or text runs can be inserted.
+ * It creates a shape, gets its content, removes all existing elements, sets the vertical text alignment to "bottom", creates a new paragraph with text, and then adds this paragraph to the shape's content.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить вертикальное выравнивание содержимого фигуры, куда можно вставлять абзацы или текстовые фрагменты.
+ * Он создает фигуру, получает ее содержимое, удаляет все существующие элементы, устанавливает вертикальное выравнивание текста на «bottom», создает новый абзац с текстом, а затем добавляет этот абзац в содержимое фигуры.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

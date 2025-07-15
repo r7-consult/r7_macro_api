@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetColumnRange
- * 
- *  Демонстрация использования метода GetColumnRange класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetColumnRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetColumnRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the column range of a pivot table.
+ * It creates a pivot table, adds data and fields, and then selects its column range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить диапазон столбцов сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем выбирает диапазон ее столбцов.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

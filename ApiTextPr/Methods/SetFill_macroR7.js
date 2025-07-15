@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetFill
- * 
- *  Демонстрация использования метода SetFill класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetFill_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetFill
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text color to the current text run.
+ * It creates a shape, adds a run with text, sets its fill property to gray, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить цвет текста для текущего текстового запуска.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство заливки в серый цвет, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

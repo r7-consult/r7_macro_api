@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetAutoFilter
- * 
- *  Демонстрация использования метода SetAutoFilter класса ApiRange
- * https://r7-consult.ru/
+ * @file SetAutoFilter_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetAutoFilter
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set an autofilter by cell range.
+ * It sets values in a range and then applies an autofilter to display only specific values.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить автофильтр по диапазону ячеек.
+ * Он устанавливает значения в диапазоне, а затем применяет автофильтр для отображения только определенных значений.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

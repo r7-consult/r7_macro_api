@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetColumnWidth
- * 
- *  Демонстрация использования метода SetColumnWidth класса ApiRange
- * https://r7-consult.ru/
+ * @file SetColumnWidth_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetColumnWidth
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the width of all columns in a range.
+ * It sets the width of column A to 20.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить ширину всех столбцов в диапазоне.
+ * Он устанавливает ширину столбца A на 20.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

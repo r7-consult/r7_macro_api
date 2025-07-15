@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetTableStyleRowHeaders
- * 
- *  Демонстрация использования метода GetTableStyleRowHeaders класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetTableStyleRowHeaders_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetTableStyleRowHeaders
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the table style row headers setting of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays whether row headers are styled.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить настройку заголовков строк стиля таблицы сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает, стилизованы ли заголовки строк.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

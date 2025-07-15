@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRGBColor.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiRGBColor
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRGBColor.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiRGBColor object.
+ * It creates an RGB color, uses it in a gradient fill for a shape, and then displays the class type of the RGB color object.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiRGBColor.
+ * Он создает цвет RGB, использует его в градиентной заливке для фигуры, а затем отображает тип класса объекта цвета RGB.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

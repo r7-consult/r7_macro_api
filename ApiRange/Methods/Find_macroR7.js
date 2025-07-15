@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Find
- * 
- *  Демонстрация использования метода Find класса ApiRange
- * https://r7-consult.ru/
+ * @file Find_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Find
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to find specific information within a range.
+ * It sets up a sample data table, defines a search range, and then finds and highlights a specific value within that range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как найти конкретную информацию в диапазоне.
+ * Он настраивает образец таблицы данных, определяет диапазон поиска, а затем находит и выделяет определенное значение в этом диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

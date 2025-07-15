@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRange.GetAllUsers
- * 
- *  Демонстрация использования метода GetAllUsers класса ApiProtectedRange
- * https://r7-consult.ru/
+ * @file GetAllUsers_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRange.GetAllUsers
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all users of a protected range.
+ * It adds a protected range to the worksheet, adds two users to it, and then displays the name of the first user.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить всех пользователей защищенного диапазона.
+ * Он добавляет защищенный диапазон на лист, добавляет в него двух пользователей, а затем отображает имя первого пользователя.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

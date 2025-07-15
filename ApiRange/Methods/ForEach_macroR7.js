@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.ForEach
- * 
- *  Демонстрация использования метода ForEach класса ApiRange
- * https://r7-consult.ru/
+ * @file ForEach_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.ForEach
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to execute a provided function once for each cell in a range.
+ * It sets values in a range and then iterates through each cell to make values other than "1" bold.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как выполнить предоставленную функцию один раз для каждой ячейки в диапазоне.
+ * Он устанавливает значения в диапазоне, а затем перебирает каждую ячейку, чтобы сделать жирными значения, отличные от «1».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

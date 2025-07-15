@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetCols
- * 
- *  Демонстрация использования метода GetCols класса ApiRange
- * https://r7-consult.ru/
+ * @file GetCols_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetCols
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a Range object that represents the columns in the specified range.
+ * It gets a range and then fills its second column with a color.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект Range, представляющий столбцы в указанном диапазоне.
+ * Он получает диапазон, а затем заполняет его второй столбец цветом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

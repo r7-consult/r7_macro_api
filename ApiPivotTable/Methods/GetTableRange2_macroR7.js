@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetTableRange2
- * 
- *  Демонстрация использования метода GetTableRange2 класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetTableRange2_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetTableRange2
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the range of the entire pivot table report, including page fields.
+ * It creates a pivot table, adds data and fields, and then selects the table range including page fields.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить диапазон всего отчета сводной таблицы, включая поля страниц.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем выбирает диапазон таблицы, включая поля страниц.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

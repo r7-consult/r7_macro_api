@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetNumberFormat
- * 
- *  Демонстрация использования метода SetNumberFormat класса ApiRange
- * https://r7-consult.ru/
+ * @file SetNumberFormat_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetNumberFormat
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the number format of cells in a range.
+ * It sets various number formats (General, Number, Currency, Accounting, Date, Time, Percentage, Fraction, Scientific, Text) to cells in column A and displays their types in column B.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить числовой формат ячеек в диапазоне.
+ * Он устанавливает различные числовые форматы (общий, числовой, валютный, бухгалтерский, дата, время, процентный, дробный, научный, текстовый) для ячеек в столбце A и отображает их типы в столбце B.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

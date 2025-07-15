@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.AddText
- * 
- *  Демонстрация использования метода AddText класса ApiRun
- * https://r7-consult.ru/
+ * @file AddText_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.AddText
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add text to a run.
+ * It creates a shape, gets its content, creates a run with a specified font size, adds text to it, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить текст к запуску.
+ * Он создает фигуру, получает ее содержимое, создает запуск с указанным размером шрифта, добавляет к нему текст, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

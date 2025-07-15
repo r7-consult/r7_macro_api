@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetOutLine
- * 
- *  Демонстрация использования метода SetOutLine класса ApiRun
- * https://r7-consult.ru/
+ * @file SetOutLine_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetOutLine
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text outline to the current text run.
+ * It creates a shape, adds a run with normal text, and then adds another run with a gray outline.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить контур текста для текущего текстового запуска.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с серым контуром.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

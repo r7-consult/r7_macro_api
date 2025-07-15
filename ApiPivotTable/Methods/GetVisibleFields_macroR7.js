@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetVisibleFields
- * 
- *  Демонстрация использования метода GetVisibleFields класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetVisibleFields_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetVisibleFields
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the visible fields of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays the names of the visible fields.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить видимые поля сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает имена видимых полей.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

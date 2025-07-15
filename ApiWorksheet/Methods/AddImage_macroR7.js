@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddImage
- * 
- *  Демонстрация использования метода AddImage класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddImage_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddImage
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add an image to the sheet with the specified parameters.
+ * It adds an image from a URL to the worksheet with a specified width, height, and position.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить изображение на лист с указанными параметрами.
+ * Он добавляет изображение из URL-адреса на лист с указанной шириной, высотой и положением.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

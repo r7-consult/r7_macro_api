@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetUnderline
- * 
- *  Демонстрация использования метода GetUnderline класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetUnderline_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetUnderline
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the underline property of a text.
+ * It creates a shape, adds a run with text, sets its underline property, and then displays whether it is underlined.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство подчеркивания текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство подчеркивания, а затем отображает, является ли он подчеркнутым.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

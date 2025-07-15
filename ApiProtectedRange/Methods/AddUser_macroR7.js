@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRange.AddUser
- * 
- *  Демонстрация использования метода AddUser класса ApiProtectedRange
- * https://r7-consult.ru/
+ * @file AddUser_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRange.AddUser
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a user to a protected range.
+ * It adds a protected range to the worksheet and then adds a user with view permissions to it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить пользователя в защищенный диапазон.
+ * Он добавляет защищенный диапазон на лист, а затем добавляет в него пользователя с правами просмотра.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

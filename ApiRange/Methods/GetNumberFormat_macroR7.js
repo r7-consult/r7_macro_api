@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetNumberFormat
- * 
- *  Демонстрация использования метода GetNumberFormat класса ApiRange
- * https://r7-consult.ru/
+ * @file GetNumberFormat_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetNumberFormat
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the number format of a range.
+ * It sets a value in cell B2, gets its number format, and then displays it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить числовой формат диапазона.
+ * Он устанавливает значение в ячейке B2, получает его числовой формат, а затем отображает его.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

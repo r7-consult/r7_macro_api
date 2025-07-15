@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetFormula
- * 
- *  Демонстрация использования метода GetFormula класса ApiRange
- * https://r7-consult.ru/
+ * @file GetFormula_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetFormula
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the formula of a specified range.
+ * It sets values in cells B1 and C1, sets a formula in cell A1, and then displays the formula from cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить формулу указанного диапазона.
+ * Он устанавливает значения в ячейках B1 и C1, устанавливает формулу в ячейке A1, а затем отображает формулу из ячейки A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

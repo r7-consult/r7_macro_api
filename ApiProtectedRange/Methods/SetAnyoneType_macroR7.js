@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRange.SetAnyoneType
- * 
- *  Демонстрация использования метода SetAnyoneType класса ApiProtectedRange
- * https://r7-consult.ru/
+ * @file SetAnyoneType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRange.SetAnyoneType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the access type for anyone for a protected range.
+ * It adds a protected range to the worksheet and then sets its access type to "CanView".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить тип доступа для любого пользователя для защищенного диапазона.
+ * Он добавляет защищенный диапазон на лист, а затем устанавливает его тип доступа на «CanView».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

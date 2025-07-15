@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetGrandTotalName
- * 
- *  Демонстрация использования метода GetGrandTotalName класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetGrandTotalName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetGrandTotalName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the grand total name of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays its grand total name.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить имя общего итога сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает имя ее общего итога.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

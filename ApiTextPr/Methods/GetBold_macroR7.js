@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetBold
- * 
- *  Демонстрация использования метода GetBold класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetBold_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetBold
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the bold property of a text.
+ * It creates a shape, adds a run with text, sets its bold property, and then displays whether it is bold.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство жирности текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство жирности, а затем отображает, является ли он жирным.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

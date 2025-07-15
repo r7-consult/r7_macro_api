@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.AddComment
- * 
- *  Демонстрация использования метода AddComment класса ApiRange
- * https://r7-consult.ru/
+ * @file AddComment_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.AddComment
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a comment to a range.
+ * It gets a range from the worksheet, adds a comment to it, and then displays the comment's text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить комментарий к диапазону.
+ * Он получает диапазон из листа, добавляет к нему комментарий, а затем отображает текст комментария.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetSource
- * 
- *  Демонстрация использования метода SetSource класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetSource_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetSource
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the source of a pivot table.
+ * It creates a pivot table, adds data and fields, displays its initial source, and then changes its source after a delay.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить источник сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, отображает ее исходный источник, а затем изменяет его источник с задержкой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

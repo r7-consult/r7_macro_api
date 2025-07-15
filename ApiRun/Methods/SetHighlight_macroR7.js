@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetHighlight
- * 
- *  Демонстрация использования метода SetHighlight класса ApiRun
- * https://r7-consult.ru/
+ * @file SetHighlight_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetHighlight
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify a highlighting color which is applied as a background to the contents of the run.
+ * It creates a shape, adds a run with normal text, and then adds another run with light gray highlighted text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать цвет выделения, который применяется в качестве фона к содержимому запуска.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с текстом, выделенным светло-серым цветом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

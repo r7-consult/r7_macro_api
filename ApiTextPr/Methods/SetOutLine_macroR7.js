@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetOutLine
- * 
- *  Демонстрация использования метода SetOutLine класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetOutLine_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetOutLine
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text outline to the current text run.
+ * It creates a shape, adds a run with text, sets its outline property to gray, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить контур текста для текущего текстового запуска.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство контура в серый цвет, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetPivotData
- * 
- *  Демонстрация использования метода GetPivotData класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetPivotData_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetPivotData
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get data from a pivot table.
+ * It creates a pivot table, adds data and fields, and then retrieves and displays a specific data point.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить данные из сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем извлекает и отображает определенную точку данных.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

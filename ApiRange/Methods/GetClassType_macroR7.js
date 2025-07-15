@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiRange
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiRange object.
+ * It sets a value in cell A1, gets the range, and then displays its class type.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiRange.
+ * Он устанавливает значение в ячейке A1, получает диапазон, а затем отображает его тип класса.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

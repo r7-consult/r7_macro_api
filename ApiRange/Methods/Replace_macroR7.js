@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Replace
- * 
- *  Демонстрация использования метода Replace класса ApiRange
- * https://r7-consult.ru/
+ * @file Replace_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Replace
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to replace specific information within a range.
+ * It sets up a sample data table, defines a search and replace operation to change all occurrences of "200" to "0" within a specified range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как заменить определенную информацию в диапазоне.
+ * Он настраивает образец таблицы данных, определяет операцию поиска и замены, чтобы изменить все вхождения «200» на «0» в указанном диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetDescription
- * 
- *  Демонстрация использования метода SetDescription класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetDescription_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetDescription
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the description of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays its default and a custom description.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить описание сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает ее описание по умолчанию и пользовательское описание.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

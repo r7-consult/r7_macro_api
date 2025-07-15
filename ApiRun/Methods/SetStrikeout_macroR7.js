@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetStrikeout
- * 
- *  Демонстрация использования метода SetStrikeout класса ApiRun
- * https://r7-consult.ru/
+ * @file SetStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the current run are displayed with a single horizontal line through the center of the line.
+ * It creates a shape, adds a run with normal text, and then adds another run with strikethrough text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое текущего запуска отображается одной горизонтальной линией через центр строки.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с зачеркнутым текстом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

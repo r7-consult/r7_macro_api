@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetValue2
- * 
- *  Демонстрация использования метода GetValue2 класса ApiRange
- * https://r7-consult.ru/
+ * @file GetValue2_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetValue2
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the value without format of a specified range.
+ * It sets a formatted value in cell A1, gets its raw value, and then displays it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить значение без формата указанного диапазона.
+ * Он устанавливает отформатированное значение в ячейке A1, получает его необработанное значение, а затем отображает его.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

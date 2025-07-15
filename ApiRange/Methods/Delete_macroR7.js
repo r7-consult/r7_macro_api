@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Delete
- * 
- *  Демонстрация использования метода Delete класса ApiRange
- * https://r7-consult.ru/
+ * @file Delete_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Delete
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to delete a range from the worksheet.
+ * It sets values in cells B4, C4, D4, and C5, and then deletes cell C4, shifting cells up.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как удалить диапазон из листа.
+ * Он устанавливает значения в ячейках B4, C4, D4 и C5, а затем удаляет ячейку C4, сдвигая ячейки вверх.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

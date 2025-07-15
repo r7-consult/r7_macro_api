@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetRepeatAllLabels
- * 
- *  Демонстрация использования метода SetRepeatAllLabels класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetRepeatAllLabels_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetRepeatAllLabels
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the repeat all labels property of a pivot table.
+ * It creates a pivot table, adds data and fields, and then sets the repeat all labels to true.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить свойство «повторять все метки» сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем устанавливает для всех меток значение true.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

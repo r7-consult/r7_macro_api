@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetStyleName
- * 
- *  Демонстрация использования метода SetStyleName класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetStyleName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetStyleName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the style name of a pivot table.
+ * It creates a pivot table, adds data and fields, and then changes its style name to 'PivotStyleLight14' after a delay.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить имя стиля сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем изменяет имя ее стиля на «PivotStyleLight14» с задержкой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetBorders
- * 
- *  Демонстрация использования метода SetBorders класса ApiRange
- * https://r7-consult.ru/
+ * @file SetBorders_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetBorders
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the border to a cell with specified parameters.
+ * It sets a thick, orange bottom border to cell A2 and then sets a value in it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить границу ячейки с указанными параметрами.
+ * Он устанавливает толстую оранжевую нижнюю границу для ячейки A2, а затем устанавливает в ней значение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

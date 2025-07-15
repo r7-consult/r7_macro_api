@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Copy
- * 
- *  Демонстрация использования метода Copy класса ApiRange
- * https://r7-consult.ru/
+ * @file Copy_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Copy
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to copy a range to a specified destination.
+ * It sets a value in cell A1 and then copies it to cell A3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как скопировать диапазон в указанное место назначения.
+ * Он устанавливает значение в ячейке A1, а затем копирует его в ячейку A3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

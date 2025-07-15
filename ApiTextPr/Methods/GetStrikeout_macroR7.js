@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetStrikeout
- * 
- *  Демонстрация использования метода GetStrikeout класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the strikethrough property of a text.
+ * It creates a shape, adds a run with text, sets its strikethrough property, and then displays whether it is strikethrough.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство зачеркивания текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство зачеркивания, а затем отображает, является ли он зачеркнутым.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

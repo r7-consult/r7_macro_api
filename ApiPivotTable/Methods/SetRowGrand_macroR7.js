@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetRowGrand
- * 
- *  Демонстрация использования метода SetRowGrand класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetRowGrand_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetRowGrand
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the row grand total setting of a pivot table.
+ * It creates a pivot table, adds data and fields, sets row grand totals to false, and then displays the setting.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить настройку общего итога по строкам сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, устанавливает общие итоги по строкам в значение false, а затем отображает настройку.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRange.SetRange
- * 
- *  Демонстрация использования метода SetRange класса ApiProtectedRange
- * https://r7-consult.ru/
+ * @file SetRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRange.SetRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the range for a protected range.
+ * It adds a protected range to the worksheet and then changes its range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить диапазон для защищенного диапазона.
+ * Он добавляет защищенный диапазон на лист, а затем изменяет его диапазон.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

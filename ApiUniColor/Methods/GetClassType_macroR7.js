@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiUniColor.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiUniColor
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiUniColor.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiUniColor object.
+ * It creates a preset color, uses it in a gradient fill for a shape, and then displays the class type of the preset color object.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiUniColor.
+ * Он создает предустановленный цвет, использует его в градиентной заливке для фигуры, а затем отображает тип класса объекта предустановленного цвета.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

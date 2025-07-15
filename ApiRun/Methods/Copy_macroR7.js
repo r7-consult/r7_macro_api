@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.Copy
- * 
- *  Демонстрация использования метода Copy класса ApiRun
- * https://r7-consult.ru/
+ * @file Copy_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.Copy
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to create a copy of a run.
+ * It creates a shape, adds a run with text, copies it, and then adds the copy to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как создать копию запуска.
+ * Он создает фигуру, добавляет запуск с текстом, копирует его, а затем добавляет копию в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

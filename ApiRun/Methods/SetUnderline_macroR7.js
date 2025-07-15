@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetUnderline
- * 
- *  Демонстрация использования метода SetUnderline класса ApiRun
- * https://r7-consult.ru/
+ * @file SetUnderline_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetUnderline
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the current run are displayed along with a line appearing directly below the character.
+ * It creates a shape, adds a run with normal text, and then adds another run with underlined text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое текущего запуска отображается вместе с линией, появляющейся непосредственно под символом.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с подчеркнутым текстом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.RemoveField
- * 
- *  Демонстрация использования метода RemoveField класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file RemoveField_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.RemoveField
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to remove a field from a pivot table.
+ * It creates a pivot table, adds data and fields, and then removes the 'Region' field after a delay.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как удалить поле из сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем удаляет поле «Регион» с задержкой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

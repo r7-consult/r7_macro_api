@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetActiveCell
- * 
- *  Демонстрация использования метода GetActiveCell класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetActiveCell_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetActiveCell
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an object that represents an active cell.
+ * It gets the active cell and then sets a value in it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект, представляющий активную ячейку.
+ * Он получает активную ячейку, а затем устанавливает в ней значение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

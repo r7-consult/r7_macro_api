@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiTextPr object.
+ * It creates a shape, gets its content, creates a run, retrieves its text properties, and then displays the class type.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiTextPr.
+ * Он создает фигуру, получает ее содержимое, создает запуск, извлекает его текстовые свойства, а затем отображает тип класса.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

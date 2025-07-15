@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetFontSize
- * 
- *  Демонстрация использования метода GetFontSize класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetFontSize_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetFontSize
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the font size of a text.
+ * It creates a shape, adds a run with text, sets its font size, and then displays the font size.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить размер шрифта текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его размер шрифта, а затем отображает размер шрифта.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetRowFields
- * 
- *  Демонстрация использования метода GetRowFields класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetRowFields_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetRowFields
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the row fields of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays the names of the row fields.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить поля строк сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает имена полей строк.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

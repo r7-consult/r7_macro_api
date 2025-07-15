@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddChart
- * 
- *  Демонстрация использования метода AddChart класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddChart_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddChart
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to create a chart of the specified type from the selected data range of the sheet.
+ * It sets up sample data, adds a 3D bar chart, and then sets its title and series fill colors.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как создать диаграмму указанного типа из выбранного диапазона данных листа.
+ * Он настраивает образец данных, добавляет трехмерную гистограмму, а затем устанавливает ее заголовок и цвета заливки рядов.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

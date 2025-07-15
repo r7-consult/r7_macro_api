@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetValue
- * 
- *  Демонстрация использования метода SetValue класса ApiRange
- * https://r7-consult.ru/
+ * @file SetValue_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetValue
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set a value to cells.
+ * It sets numerical values in cells B1 and B2, a text label in A3, and a formula in B3 to calculate the product of B1 and B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить значение в ячейках.
+ * Он устанавливает числовые значения в ячейках B1 и B2, текстовую метку в A3 и формулу в B3 для вычисления произведения B1 и B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

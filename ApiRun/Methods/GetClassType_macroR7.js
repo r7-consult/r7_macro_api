@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiRun
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiRun object.
+ * It creates a shape, gets its content, creates a run, and then displays the class type of the run object.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiRun.
+ * Он создает фигуру, получает ее содержимое, создает запуск, а затем отображает тип класса объекта запуска.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

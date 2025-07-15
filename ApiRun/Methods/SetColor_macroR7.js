@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetColor
- * 
- *  Демонстрация использования метода SetColor класса ApiRun
- * https://r7-consult.ru/
+ * @file SetColor_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetColor
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text color for the current text run in RGB format.
+ * It creates a shape, adds a run with text, and then sets its color to gray.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить цвет текста для текущего текстового запуска в формате RGB.
+ * Он создает фигуру, добавляет запуск с текстом, а затем устанавливает его цвет в серый.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

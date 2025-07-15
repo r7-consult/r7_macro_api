@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetRows
- * 
- *  Демонстрация использования метода GetRows класса ApiRange
- * https://r7-consult.ru/
+ * @file GetRows_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetRows
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a Range object that represents the rows in the specified range.
+ * It gets a range and then sets a value for each row within that range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект Range, представляющий строки в указанном диапазоне.
+ * Он получает диапазон, а затем устанавливает значение для каждой строки в этом диапазоне.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

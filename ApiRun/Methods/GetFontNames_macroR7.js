@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.GetFontNames
- * 
- *  Демонстрация использования метода GetFontNames класса ApiRun
- * https://r7-consult.ru/
+ * @file GetFontNames_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.GetFontNames
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all font names from all elements inside a run.
+ * It creates a shape, adds two runs with different font families, and then displays the font names of the runs.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все имена шрифтов из всех элементов внутри запуска.
+ * Он создает фигуру, добавляет два запуска с разными семействами шрифтов, а затем отображает имена шрифтов запусков.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

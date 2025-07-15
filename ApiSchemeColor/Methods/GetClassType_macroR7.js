@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiSchemeColor.GetClassType
- * 
- *  Демонстрация использования метода GetClassType класса ApiSchemeColor
- * https://r7-consult.ru/
+ * @file GetClassType_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiSchemeColor.GetClassType
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the class type of an ApiSchemeColor object.
+ * It creates a scheme color, uses it in a solid fill for a shape, and then displays the class type of the scheme color object.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить тип класса объекта ApiSchemeColor.
+ * Он создает цвет схемы, использует его в сплошной заливке для фигуры, а затем отображает тип класса объекта цвета схемы.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddWordArt
- * 
- *  Демонстрация использования метода AddWordArt класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddWordArt_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddWordArt
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a Text Art object to the sheet with the specified parameters.
+ * It creates text properties, a solid fill, and a stroke, and then adds a WordArt object to the worksheet with these properties.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить объект Text Art на лист с указанными параметрами.
+ * Он создает текстовые свойства, сплошную заливку и обводку, а затем добавляет объект WordArt на лист с этими свойствами.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

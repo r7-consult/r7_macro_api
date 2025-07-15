@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetRowHeight
- * 
- *  Демонстрация использования метода GetRowHeight класса ApiRange
- * https://r7-consult.ru/
+ * @file GetRowHeight_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetRowHeight
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the row height value of a range.
+ * It gets the row height of cell A1 and then displays it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить значение высоты строки диапазона.
+ * Он получает высоту строки ячейки A1, а затем отображает ее.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

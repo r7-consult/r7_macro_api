@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetBold
- * 
- *  Демонстрация использования метода SetBold класса ApiRange
- * https://r7-consult.ru/
+ * @file SetBold_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetBold
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the bold property to the text characters in the current cell or cell range.
+ * It sets a value in cell A2 and then makes it bold.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить свойство жирности для текстовых символов в текущей ячейке или диапазоне ячеек.
+ * Он устанавливает значение в ячейке A2, а затем делает его жирным.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

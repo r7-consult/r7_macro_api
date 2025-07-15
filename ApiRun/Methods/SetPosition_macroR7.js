@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetPosition
- * 
- *  Демонстрация использования метода SetPosition класса ApiRun
- * https://r7-consult.ru/
+ * @file SetPosition_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetPosition
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
+ * It creates a shape, adds a run with normal text, and then adds two more runs with text raised and lowered by a specified amount.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать величину, на которую текст поднимается или опускается для этого запуска относительно базовой линии окружающего непозиционированного текста.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще два запуска с текстом, поднятым и опущенным на указанную величину.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.FindNext
- * 
- *  Демонстрация использования метода FindNext класса ApiRange
- * https://r7-consult.ru/
+ * @file FindNext_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.FindNext
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to find the next cell that matches specific conditions within a range.
+ * It sets up a sample data table, finds the first occurrence of a value, and then finds and highlights the next occurrence.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как найти следующую ячейку, соответствующую определенным условиям в диапазоне.
+ * Он настраивает образец таблицы данных, находит первое вхождение значения, а затем находит и выделяет следующее вхождение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

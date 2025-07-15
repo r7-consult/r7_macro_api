@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.AutoFit
- * 
- *  Демонстрация использования метода AutoFit класса ApiRange
- * https://r7-consult.ru/
+ * @file AutoFit_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.AutoFit
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to auto-fit the width of columns or the height of rows in a range.
+ * It sets a value in cell A1 and then auto-fits the column width to achieve the best fit.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как автоматически подогнать ширину столбцов или высоту строк в диапазоне.
+ * Он устанавливает значение в ячейке A1, а затем автоматически подгоняет ширину столбца для достижения наилучшего соответствия.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Clear
- * 
- *  Демонстрация использования метода Clear класса ApiRange
- * https://r7-consult.ru/
+ * @file Clear_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Clear
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to clear the content of a range.
+ * It sets a value in range A1:B1 and then clears everything from it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как очистить содержимое диапазона.
+ * Он устанавливает значение в диапазоне A1:B1, а затем очищает из него все.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

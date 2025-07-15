@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetParent
- * 
- *  Демонстрация использования метода GetParent класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetParent_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetParent
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the parent of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays the name of its parent worksheet.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить родителя сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает имя ее родительского листа.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

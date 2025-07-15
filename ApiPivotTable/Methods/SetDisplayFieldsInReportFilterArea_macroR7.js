@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetDisplayFieldsInReportFilterArea
- * 
- *  Демонстрация использования метода SetDisplayFieldsInReportFilterArea класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetDisplayFieldsInReportFilterArea_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetDisplayFieldsInReportFilterArea
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the display fields in the report filter area of a pivot table.
+ * It creates a pivot table, adds data and fields, sets the display fields in the report filter area to 'OverThenDown' with 3 fields, and then displays the settings.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить поля отображения в области фильтра отчета сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, устанавливает поля отображения в области фильтра отчета на «OverThenDown» с 3 полями, а затем отображает настройки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

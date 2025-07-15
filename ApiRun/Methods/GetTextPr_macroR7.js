@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.GetTextPr
- * 
- *  Демонстрация использования метода GetTextPr класса ApiRun
- * https://r7-consult.ru/
+ * @file GetTextPr_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.GetTextPr
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the text properties of a run.
+ * It creates a shape, gets its content, creates a run, retrieves its text properties, sets the font size, and then adds text to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить текстовые свойства запуска.
+ * Он создает фигуру, получает ее содержимое, создает запуск, извлекает его текстовые свойства, устанавливает размер шрифта, а затем добавляет текст в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

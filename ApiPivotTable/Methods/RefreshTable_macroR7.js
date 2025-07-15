@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.RefreshTable
- * 
- *  Демонстрация использования метода RefreshTable класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file RefreshTable_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.RefreshTable
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to refresh a pivot table.
+ * It creates a pivot table, adds data and fields, and then refreshes it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как обновить сводную таблицу.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем обновляет ее.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetComment
- * 
- *  Демонстрация использования метода GetComment класса ApiRange
- * https://r7-consult.ru/
+ * @file GetComment_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetComment
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ApiComment object of a range.
+ * It sets a value in cell A1, adds a comment to it, and then displays the comment's text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект ApiComment диапазона.
+ * Он устанавливает значение в ячейке A1, добавляет к нему комментарий, а затем отображает текст комментария.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

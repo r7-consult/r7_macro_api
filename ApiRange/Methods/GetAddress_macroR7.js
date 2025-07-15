@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetAddress
- * 
- *  Демонстрация использования метода GetAddress класса ApiRange
- * https://r7-consult.ru/
+ * @file GetAddress_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetAddress
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the address of a range.
+ * It sets values in cells A1 and B1, gets the address of cell A1, and then displays the address.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить адрес диапазона.
+ * Он устанавливает значения в ячейках A1 и B1, получает адрес ячейки A1, а затем отображает адрес.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

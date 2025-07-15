@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Merge
- * 
- *  Демонстрация использования метода Merge класса ApiRange
- * https://r7-consult.ru/
+ * @file Merge_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Merge
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to merge a selected cell range into a single cell or a cell row.
+ * It merges range A3:E8 into a single cell and range A9:E14 into a single row.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как объединить выбранный диапазон ячеек в одну ячейку или строку ячеек.
+ * Он объединяет диапазон A3:E8 в одну ячейку и диапазон A9:E14 в одну строку.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

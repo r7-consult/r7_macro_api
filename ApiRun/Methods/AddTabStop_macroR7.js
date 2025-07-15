@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.AddTabStop
- * 
- *  Демонстрация использования метода AddTabStop класса ApiRun
- * https://r7-consult.ru/
+ * @file AddTabStop_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.AddTabStop
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a tab stop to a run.
+ * It creates a shape, adds a run with text, adds three tab stops, and then adds more text after the tab stops.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить табуляцию к запуску.
+ * Он создает фигуру, добавляет запуск с текстом, добавляет три табуляции, а затем добавляет больше текста после табуляции.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

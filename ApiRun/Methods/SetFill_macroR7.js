@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetFill
- * 
- *  Демонстрация использования метода SetFill класса ApiRun
- * https://r7-consult.ru/
+ * @file SetFill_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetFill
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text color for the current text run.
+ * It creates a shape, adds a run with normal text, and then adds another run with gray-colored text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить цвет текста для текущего текстового запуска.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с текстом серого цвета.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

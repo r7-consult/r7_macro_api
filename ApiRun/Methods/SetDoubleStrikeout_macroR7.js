@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetDoubleStrikeout
- * 
- *  Демонстрация использования метода SetDoubleStrikeout класса ApiRun
- * https://r7-consult.ru/
+ * @file SetDoubleStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetDoubleStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the current run are displayed with two horizontal lines through each character displayed on the line.
+ * It creates a shape, adds a run with normal text, and then adds another run with double strikethrough text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое текущего запуска отображается двумя горизонтальными линиями через каждый символ, отображаемый в строке.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с двойным зачеркнутым текстом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

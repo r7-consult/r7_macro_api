@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.SetSmallCaps
- * 
- *  Демонстрация использования метода SetSmallCaps класса ApiRun
- * https://r7-consult.ru/
+ * @file SetSmallCaps_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.SetSmallCaps
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that all the small letter characters in this text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+ * It creates a shape, adds a run with normal text, and then adds another run with small capitalized text.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что все строчные символы в этом текстовом запуске форматируются для отображения только как их эквиваленты заглавных букв, которые на два пункта меньше фактического размера шрифта, указанного для этого текста.
+ * Он создает фигуру, добавляет запуск с обычным текстом, а затем добавляет еще один запуск с текстом, написанным заглавными буквами.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

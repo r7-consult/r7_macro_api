@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.UnMerge
- * 
- *  Демонстрация использования метода UnMerge класса ApiRange
- * https://r7-consult.ru/
+ * @file UnMerge_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.UnMerge
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to split a selected merged cell range into single cells.
+ * It merges range A3:E8 and then unmerges range A5:E5.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как разделить выбранный объединенный диапазон ячеек на отдельные ячейки.
+ * Он объединяет диапазон A3:E8, а затем разъединяет диапазон A5:E5.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

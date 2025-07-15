@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.SetDisplayFieldCaptions
- * 
- *  Демонстрация использования метода SetDisplayFieldCaptions класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file SetDisplayFieldCaptions_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.SetDisplayFieldCaptions
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the display field captions setting of a pivot table.
+ * It creates a pivot table, adds data and fields, sets display field captions to false, and then displays the setting.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить настройку отображения заголовков полей сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, устанавливает отображение заголовков полей в значение false, а затем отображает настройку.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

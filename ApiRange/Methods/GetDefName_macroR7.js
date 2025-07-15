@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetDefName
- * 
- *  Демонстрация использования метода GetDefName класса ApiRange
- * https://r7-consult.ru/
+ * @file GetDefName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetDefName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ApiName object of a range.
+ * It sets values in a range, adds a defined name to it, and then displays the name of the defined name.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект ApiName диапазона.
+ * Он устанавливает значения в диапазоне, добавляет к нему определенное имя, а затем отображает имя определенного имени.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

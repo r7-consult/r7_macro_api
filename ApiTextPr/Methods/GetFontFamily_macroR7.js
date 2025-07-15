@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetFontFamily
- * 
- *  Демонстрация использования метода GetFontFamily класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetFontFamily_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetFontFamily
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the font family of a text.
+ * It creates a shape, adds a run with text, sets its font family, and then displays the font family.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить семейство шрифтов текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его семейство шрифтов, а затем отображает семейство шрифтов.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

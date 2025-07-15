@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllImages
- * 
- *  Демонстрация использования метода GetAllImages класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllImages_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllImages
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all images from the sheet.
+ * It adds an image to the worksheet, and then retrieves all images to display the class type of the first image.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все изображения с листа.
+ * Он добавляет изображение на лист, а затем извлекает все изображения для отображения типа класса первого изображения.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

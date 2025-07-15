@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetFormulaArray
- * 
- *  Демонстрация использования метода SetFormulaArray класса ApiRange
- * https://r7-consult.ru/
+ * @file SetFormulaArray_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetFormulaArray
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the array formula of a range.
+ * It sets an array formula in range A1:C3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить формулу массива диапазона.
+ * Он устанавливает формулу массива в диапазоне A1:C3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

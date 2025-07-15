@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetSmallCaps
- * 
- *  Демонстрация использования метода GetSmallCaps класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetSmallCaps_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetSmallCaps
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the small caps property of a text.
+ * It creates a shape, adds a run with text, sets its small caps property, and then displays whether it is small caps.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство малых заглавных букв текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство малых заглавных букв, а затем отображает, является ли он малыми заглавными буквами.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

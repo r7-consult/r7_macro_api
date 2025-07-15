@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetOutLine
- * 
- *  Демонстрация использования метода GetOutLine класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetOutLine_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetOutLine
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the outline property of a text.
+ * It creates a shape, adds a run with text, sets its outline property, and then displays the outline type.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство контура текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство контура, а затем отображает тип контура.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

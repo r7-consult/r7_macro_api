@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllDrawings
- * 
- *  Демонстрация использования метода GetAllDrawings класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllDrawings_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllDrawings
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all drawings from the sheet.
+ * It creates a chart (which is a type of drawing), sets its properties, and then retrieves all drawings from the worksheet to modify the first one.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все рисунки с листа.
+ * Он создает диаграмму (которая является типом рисунка), устанавливает ее свойства, а затем извлекает все рисунки из листа для изменения первого.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

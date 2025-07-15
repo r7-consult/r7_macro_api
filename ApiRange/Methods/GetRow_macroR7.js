@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.GetRow
- * 
- *  Демонстрация использования метода GetRow класса ApiRange
- * https://r7-consult.ru/
+ * @file GetRow_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.GetRow
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the row number for the selected cell.
+ * It gets the row of cell A9 and then displays its value.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить номер строки для выбранной ячейки.
+ * Он получает строку ячейки A9, а затем отображает ее значение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

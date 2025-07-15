@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.ClearContent
- * 
- *  Демонстрация использования метода ClearContent класса ApiRun
- * https://r7-consult.ru/
+ * @file ClearContent_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.ClearContent
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to clear the content from a run.
+ * It creates a shape, adds a run with text, clears its content, and then adds a new run to confirm the clearing.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как очистить содержимое из запуска.
+ * Он создает фигуру, добавляет запуск с текстом, очищает его содержимое, а затем добавляет новый запуск для подтверждения очистки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

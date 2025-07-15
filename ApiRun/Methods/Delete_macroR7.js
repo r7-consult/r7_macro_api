@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.Delete
- * 
- *  Демонстрация использования метода Delete класса ApiRun
- * https://r7-consult.ru/
+ * @file Delete_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.Delete
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to delete a run.
+ * It creates a shape, adds a run with text to the first paragraph, and then deletes the run.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как удалить запуск.
+ * Он создает фигуру, добавляет запуск с текстом в первый абзац, а затем удаляет запуск.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

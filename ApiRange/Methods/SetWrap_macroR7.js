@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetWrap
- * 
- *  Демонстрация использования метода SetWrap класса ApiRange
- * https://r7-consult.ru/
+ * @file SetWrap_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetWrap
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify whether the words in the cell must be wrapped to fit the cell size.
+ * It sets a value in cell A1, enables text wrapping for it, and then displays whether the text is wrapped.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, должны ли слова в ячейке переноситься по размеру ячейки.
+ * Он устанавливает значение в ячейке A1, включает перенос текста для нее, а затем отображает, переносится ли текст.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

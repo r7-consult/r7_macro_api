@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.GetDoubleStrikeout
- * 
- *  Демонстрация использования метода GetDoubleStrikeout класса ApiTextPr
- * https://r7-consult.ru/
+ * @file GetDoubleStrikeout_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.GetDoubleStrikeout
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the double strikethrough property of a text.
+ * It creates a shape, adds a run with text, sets its double strikethrough property, and then displays whether it is double strikethrough.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство двойного зачеркивания текста.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство двойного зачеркивания, а затем отображает, является ли он двойным зачеркиванием.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

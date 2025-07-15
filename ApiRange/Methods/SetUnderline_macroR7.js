@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetUnderline
- * 
- *  Демонстрация использования метода SetUnderline класса ApiRange
- * https://r7-consult.ru/
+ * @file SetUnderline_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetUnderline
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that the contents of the current cell are displayed along with a line appearing directly below the character.
+ * It sets a value in cell A2 and then applies a single underline to it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что содержимое текущей ячейки отображается вместе с линией, появляющейся непосредственно под символом.
+ * Он устанавливает значение в ячейке A2, а затем применяет к нему одинарное подчеркивание.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

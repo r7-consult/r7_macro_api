@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.PasteSpecial
- * 
- *  Демонстрация использования метода PasteSpecial класса ApiRange
- * https://r7-consult.ru/
+ * @file PasteSpecial_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.PasteSpecial
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to paste data from the clipboard with specified options.
+ * It sets a value in cell A1, copies it, and then pastes it to cell B1 using PasteSpecial with specific options.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вставить данные из буфера обмена с указанными параметрами.
+ * Он устанавливает значение в ячейке A1, копирует его, а затем вставляет в ячейку B1 с помощью PasteSpecial с определенными параметрами.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

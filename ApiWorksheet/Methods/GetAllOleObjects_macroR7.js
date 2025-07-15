@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllOleObjects
- * 
- *  Демонстрация использования метода GetAllOleObjects класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllOleObjects_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllOleObjects
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all OLE objects from the sheet.
+ * It adds an OLE object to the worksheet, and then retrieves all OLE objects to display the application ID of the first one.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все объекты OLE с листа.
+ * Он добавляет объект OLE на лист, а затем извлекает все объекты OLE для отображения идентификатора приложения первого из них.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

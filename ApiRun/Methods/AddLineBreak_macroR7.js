@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRun.AddLineBreak
- * 
- *  Демонстрация использования метода AddLineBreak класса ApiRun
- * https://r7-consult.ru/
+ * @file AddLineBreak_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRun.AddLineBreak
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a line break to a run position and start the next element from a new line.
+ * It creates a shape, adds a run with text, adds a line break, and then adds more text on the new line.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить разрыв строки в позицию выполнения и начать следующий элемент с новой строки.
+ * Он создает фигуру, добавляет запуск с текстом, добавляет разрыв строки, а затем добавляет больше текста на новой строке.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

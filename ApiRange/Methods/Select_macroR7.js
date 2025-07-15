@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Select
- * 
- *  Демонстрация использования метода Select класса ApiRange
- * https://r7-consult.ru/
+ * @file Select_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Select
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to select a range.
+ * It sets a value in range A1:C1, selects it, and then sets the value of the current selection to "selected".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как выбрать диапазон.
+ * Он устанавливает значение в диапазоне A1:C1, выбирает его, а затем устанавливает значение текущего выделения в «selected».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetSort
- * 
- *  Демонстрация использования метода SetSort класса ApiRange
- * https://r7-consult.ru/
+ * @file SetSort_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetSort
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to sort the cells in a given range by the parameters specified in the request.
+ * It sets values in a range and then sorts it by multiple columns with different sort orders.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как сортировать ячейки в заданном диапазоне по параметрам, указанным в запросе.
+ * Он устанавливает значения в диапазоне, а затем сортирует его по нескольким столбцам с разными порядками сортировки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

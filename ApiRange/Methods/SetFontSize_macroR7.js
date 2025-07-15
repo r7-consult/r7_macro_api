@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetFontSize
- * 
- *  Демонстрация использования метода SetFontSize класса ApiRange
- * https://r7-consult.ru/
+ * @file SetFontSize_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetFontSize
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the font size to the characters of a cell range.
+ * It sets a value in cell A2 and then sets the font size of the range A1:D5 to 20.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить размер шрифта для символов диапазона ячеек.
+ * Он устанавливает значение в ячейке A2, а затем устанавливает размер шрифта диапазона A1:D5 на 20.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

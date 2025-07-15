@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetTitle
- * 
- *  Демонстрация использования метода GetTitle класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetTitle_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetTitle
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the title of a pivot table.
+ * It creates a pivot table, adds data and fields, and then displays its title.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить заголовок сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем отображает ее заголовок.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

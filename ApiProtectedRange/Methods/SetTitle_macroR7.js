@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiProtectedRange.SetTitle
- * 
- *  Демонстрация использования метода SetTitle класса ApiProtectedRange
- * https://r7-consult.ru/
+ * @file SetTitle_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiProtectedRange.SetTitle
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the title for a protected range.
+ * It adds a protected range to the worksheet and then changes its title.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить заголовок для защищенного диапазона.
+ * Он добавляет защищенный диапазон на лист, а затем изменяет его заголовок.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetFontFamily
- * 
- *  Демонстрация использования метода SetFontFamily класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetFontFamily_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetFontFamily
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the specified font family as the font name for a text run.
+ * It creates a shape, adds a run with text, sets its font family, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить указанное семейство шрифтов в качестве имени шрифта для текстового запуска.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его семейство шрифтов, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

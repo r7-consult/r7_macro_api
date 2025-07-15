@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllProtectedRanges
- * 
- *  Демонстрация использования метода GetAllProtectedRanges класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllProtectedRanges_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllProtectedRanges
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an object that represents all protected ranges.
+ * It adds two protected ranges to the worksheet and then renames their titles.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект, представляющий все защищенные диапазоны.
+ * Он добавляет два защищенных диапазона на лист, а затем переименовывает их заголовки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

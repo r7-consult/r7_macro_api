@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetCaps
- * 
- *  Демонстрация использования метода SetCaps класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetCaps_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetCaps
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
+ * It creates a shape, adds a run with text, sets its capitalization property, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, что любые строчные символы в текстовом запуске форматируются для отображения только как их эквиваленты заглавных букв.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его свойство заглавных букв, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

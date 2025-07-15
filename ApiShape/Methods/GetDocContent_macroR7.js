@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiShape.GetDocContent
- * 
- *  Демонстрация использования метода GetDocContent класса ApiShape
- * https://r7-consult.ru/
+ * @file GetDocContent_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiShape.GetDocContent
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the shape inner contents where a paragraph or text runs can be inserted.
+ * It creates a shape, gets its document content, removes all existing elements, creates a new paragraph with text, and then adds this paragraph to the shape's content.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить внутреннее содержимое фигуры, куда можно вставлять абзацы или текстовые фрагменты.
+ * Он создает фигуру, получает ее содержимое документа, удаляет все существующие элементы, создает новый абзац с текстом, а затем добавляет этот абзац в содержимое фигуры.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

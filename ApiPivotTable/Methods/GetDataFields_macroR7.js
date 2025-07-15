@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiPivotTable.GetDataFields
- * 
- *  Демонстрация использования метода GetDataFields класса ApiPivotTable
- * https://r7-consult.ru/
+ * @file GetDataFields_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiPivotTable.GetDataFields
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get data fields from a pivot table.
+ * It creates a pivot table, adds data and fields, and then iterates through the data fields to set their names and functions.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить поля данных из сводной таблицы.
+ * Он создает сводную таблицу, добавляет данные и поля, а затем перебирает поля данных, чтобы установить их имена и функции.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

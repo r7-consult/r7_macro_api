@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.SetFontColor
- * 
- *  Демонстрация использования метода SetFontColor класса ApiRange
- * https://r7-consult.ru/
+ * @file SetFontColor_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.SetFontColor
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the text color to a cell range.
+ * It sets the font color of cell A2 to an orange color and then sets a value in it.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить цвет текста для диапазона ячеек.
+ * Он устанавливает цвет шрифта ячейки A2 в оранжевый цвет, а затем устанавливает в ней значение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

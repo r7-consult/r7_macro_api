@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.AddOleObject
- * 
- *  Демонстрация использования метода AddOleObject класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file AddOleObject_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.AddOleObject
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add an OLE object to the sheet with the specified parameters.
+ * It adds an OLE object from a URL to the worksheet with a specified width, height, and position.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить объект OLE на лист с указанными параметрами.
+ * Он добавляет объект OLE из URL-адреса на лист с указанной шириной, высотой и положением.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

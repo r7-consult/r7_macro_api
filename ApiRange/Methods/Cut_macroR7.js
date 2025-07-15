@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiRange.Cut
- * 
- *  Демонстрация использования метода Cut класса ApiRange
- * https://r7-consult.ru/
+ * @file Cut_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiRange.Cut
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to cut a range to the clipboard.
+ * It sets a value in cell A1 and then cuts it to cell A3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вырезать диапазон в буфер обмена.
+ * Он устанавливает значение в ячейке A1, а затем вырезает его в ячейку A3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.ru/
  */
 
 (function() {

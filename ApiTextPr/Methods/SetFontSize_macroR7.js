@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiTextPr.SetFontSize
- * 
- *  Демонстрация использования метода SetFontSize класса ApiTextPr
- * https://r7-consult.ru/
+ * @file SetFontSize_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiTextPr.SetFontSize
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the font size to the characters of the current text run.
+ * It creates a shape, adds a run with text, sets its font size, and then adds the run to the paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить размер шрифта для символов текущего текстового запуска.
+ * Он создает фигуру, добавляет запуск с текстом, устанавливает его размер шрифта, а затем добавляет запуск в абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {
