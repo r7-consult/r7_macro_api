@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetActive
- * 
- *  Демонстрация использования метода SetActive класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetActive_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetActive
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to make a sheet active.
+ * It adds a new sheet, sets it as active, and then displays a message in its cell.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как сделать лист активным.
+ * Он добавляет новый лист, устанавливает его как активный, а затем отображает сообщение в его ячейке.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

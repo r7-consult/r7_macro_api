@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHISQ_INV
- * 
- *  Демонстрация использования метода CHISQ_INV класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHISQ_INV_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHISQ_INV
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the inverse of the left-tailed probability of the chi-squared distribution.
+ * It calculates the inverse of the left-tailed probability for specified parameters and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть обратную левостороннюю вероятность распределения хи-квадрат.
+ * Он вычисляет обратную левостороннюю вероятность для указанных параметров и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

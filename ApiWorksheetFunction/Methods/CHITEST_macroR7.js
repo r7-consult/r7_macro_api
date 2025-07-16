@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHITEST
- * 
- *  Демонстрация использования метода CHITEST класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHITEST_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHITEST
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the test for independence: the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+ * It sets up actual and expected data, and then calculates the chi-squared test statistic and displays the result in cell D6.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть тест на независимость: значение из распределения хи-квадрат для статистики и соответствующие степени свободы.
+ * Он настраивает фактические и ожидаемые данные, а затем вычисляет статистику теста хи-квадрат и отображает результат в ячейке D6.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetDisplayHeadings
- * 
- *  Демонстрация использования метода SetDisplayHeadings класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetDisplayHeadings_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetDisplayHeadings
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify whether the sheet row/column headings must be displayed or not.
+ * It sets a value in cell A2 and then sets the display headings to false.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, должны ли отображаться заголовки строк/столбцов листа.
+ * Он устанавливает значение в ячейке A2, а затем устанавливает отображение заголовков в значение false.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

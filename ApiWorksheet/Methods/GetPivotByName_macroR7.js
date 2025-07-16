@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetPivotByName
- * 
- *  Демонстрация использования метода GetPivotByName класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetPivotByName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetPivotByName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a pivot table by its name.
+ * It creates a pivot table, adds data, and then retrieves the pivot table by its name to add fields and data fields.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить сводную таблицу по ее имени.
+ * Он создает сводную таблицу, добавляет данные, а затем извлекает сводную таблицу по ее имени, чтобы добавить поля и поля данных.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

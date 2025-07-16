@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BETA_INV
- * 
- *  Демонстрация использования метода BETA_INV класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BETA_INV_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BETA_INV
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the inverse of the cumulative beta probability density function for a specified beta distribution (BETADIST) using ApiWorksheetFunction.BETA_INV.
+ * It calculates the inverse of the cumulative beta probability density function for specified parameters and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть обратную кумулятивную функцию плотности вероятности бета-распределения для заданного бета-распределения (BETADIST) с помощью ApiWorksheetFunction.BETA_INV.
+ * Он вычисляет обратную кумулятивную функцию плотности вероятности бета-распределения для указанных параметров и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

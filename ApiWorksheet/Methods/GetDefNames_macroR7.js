@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetDefNames
- * 
- *  Демонстрация использования метода GetDefNames класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetDefNames_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetDefNames
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an array of ApiName objects.
+ * It adds two defined names to the worksheet and then displays their names.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить массив объектов ApiName.
+ * Он добавляет два определенных имени на лист, а затем отображает их имена.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

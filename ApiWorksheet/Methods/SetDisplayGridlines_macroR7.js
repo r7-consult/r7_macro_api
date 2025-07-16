@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetDisplayGridlines
- * 
- *  Демонстрация использования метода SetDisplayGridlines класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetDisplayGridlines_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetDisplayGridlines
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify whether the sheet gridlines must be displayed or not.
+ * It sets a value in cell A2 and then sets the display gridlines to false.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, должны ли отображаться линии сетки листа.
+ * Он устанавливает значение в ячейке A2, а затем устанавливает отображение линий сетки в значение false.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetRows
- * 
- *  Демонстрация использования метода GetRows класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetRows_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetRows
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ApiRange object that represents all the cells on the rows range.
+ * It gets the rows from range 1:4 and then sets their fill color.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект ApiRange, представляющий все ячейки в диапазоне строк.
+ * Он получает строки из диапазона 1:4, а затем устанавливает их цвет заливки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetName
- * 
- *  Демонстрация использования метода SetName класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set a name to the active sheet.
+ * It renames the active worksheet to "sheet 1" and then displays the new name.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить имя активного листа.
+ * Он переименовывает активный лист в «лист 1», а затем отображает новое имя.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

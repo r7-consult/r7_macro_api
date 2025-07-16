@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHAR
- * 
- *  Демонстрация использования метода CHAR класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHAR_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHAR
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the character specified by the code number from your computer's character set using ApiWorksheetFunction.CHAR.
+ * It converts the code number 234 to its corresponding character and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть символ, указанный кодовым номером из набора символов вашего компьютера, с помощью ApiWorksheetFunction.CHAR.
+ * Он преобразует кодовый номер 234 в соответствующий символ и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

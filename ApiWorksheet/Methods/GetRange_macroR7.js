@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetRange
- * 
- *  Демонстрация использования метода GetRange класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an object that represents the selected range of the sheet.
+ * It sets a value in cell A2, gets the range A1:D5, and then sets its horizontal alignment to "center".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект, представляющий выбранный диапазон листа.
+ * Он устанавливает значение в ячейке A2, получает диапазон A1:D5, а затем устанавливает его горизонтальное выравнивание по центру.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

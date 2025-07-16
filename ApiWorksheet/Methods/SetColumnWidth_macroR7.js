@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetColumnWidth
- * 
- *  Демонстрация использования метода SetColumnWidth класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetColumnWidth_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetColumnWidth
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the width of the specified column.
+ * It sets the width of column 0 to 10 and column 1 to 20.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить ширину указанного столбца.
+ * Он устанавливает ширину столбца 0 на 10, а столбца 1 на 20.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

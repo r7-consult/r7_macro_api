@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetHyperlink
- * 
- *  Демонстрация использования метода SetHyperlink класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetHyperlink_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetHyperlink
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to add a hyperlink to the specified range.
+ * It adds a hyperlink to cell A1 with a URL, display text, and screen tip.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как добавить гиперссылку к указанному диапазону.
+ * Он добавляет гиперссылку к ячейке A1 с URL-адресом, отображаемым текстом и всплывающей подсказкой.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetName
- * 
- *  Демонстрация использования метода GetName класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetName_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetName
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get a sheet name.
+ * It retrieves the name of the active worksheet and displays it in cell B1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить имя листа.
+ * Он извлекает имя активного листа и отображает его в ячейке B1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ACCRINTM
- * 
- *  Демонстрация использования метода ACCRINTM класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ACCRINTM_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ACCRINTM
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the accrued interest for a security that pays interest at maturity.
+ * It calculates the accrued interest for a security with specified issue date, maturity date, annual rate, par value, and day count basis, then displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть начисленные проценты по ценной бумаге, которая выплачивает проценты при погашении.
+ * Он вычисляет начисленные проценты по ценной бумаге с указанной датой выпуска, датой погашения, годовой ставкой, номинальной стоимостью и базой подсчета дней, а затем отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BINOM_INV
- * 
- *  Демонстрация использования метода BINOM_INV класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BINOM_INV_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BINOM_INV
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the smallest value for which the cumulative binomial distribution is greater than or equal to a criterion value.
+ * It calculates the smallest value for a given number of trials, probability of success, and alpha value, and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть наименьшее значение, для которого кумулятивное биномиальное распределение больше или равно критериальному значению.
+ * Он вычисляет наименьшее значение для заданного количества испытаний, вероятности успеха и значения альфа, а затем отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COTH
- * 
- *  Демонстрация использования метода COTH класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COTH_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COTH
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the hyperbolic cotangent of a number using ApiWorksheetFunction.COTH.
+ * It calculates the hyperbolic cotangent of 0.785398 radians and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить гиперболический котангенс числа с помощью ApiWorksheetFunction.COTH.
+ * Он вычисляет гиперболический котангенс 0,785398 радиан и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

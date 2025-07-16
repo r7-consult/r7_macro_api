@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BITLSHIFT
- * 
- *  Демонстрация использования метода BITLSHIFT класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BITLSHIFT_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BITLSHIFT
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return a number shifted left by the specified number of bits using ApiWorksheetFunction.BITLSHIFT.
+ * It calculates the bitwise left shift of 4 by 2 bits and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть число, сдвинутое влево на указанное количество бит с помощью ApiWorksheetFunction.BITLSHIFT.
+ * Он вычисляет побитовый сдвиг влево числа 4 на 2 бита и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

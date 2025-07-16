@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CONCATENATE
- * 
- *  Демонстрация использования метода CONCATENATE класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CONCATENATE_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CONCATENATE
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to combine multiple text strings into one text string using ApiWorksheetFunction.CONCATENATE.
+ * It concatenates "John", " ", and "Adams" and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как объединить несколько текстовых строк в одну текстовую строку с помощью ApiWorksheetFunction.CONCATENATE.
+ * Он объединяет «John», « » и «Adams» и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

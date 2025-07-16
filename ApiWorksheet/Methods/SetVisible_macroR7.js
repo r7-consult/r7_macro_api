@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetVisible
- * 
- *  Демонстрация использования метода SetVisible класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetVisible_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetVisible
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the state of sheet visibility.
+ * It sets the active worksheet to visible and then displays a message.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить состояние видимости листа.
+ * Он устанавливает активный лист видимым, а затем отображает сообщение.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

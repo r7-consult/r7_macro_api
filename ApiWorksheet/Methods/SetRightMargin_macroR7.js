@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetRightMargin
- * 
- *  Демонстрация использования метода SetRightMargin класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetRightMargin_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetRightMargin
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the right margin of the sheet.
+ * It sets the right margin to 20.8 mm and then displays the updated margin.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить правое поле листа.
+ * Он устанавливает правое поле на 20,8 мм, а затем отображает обновленное поле.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

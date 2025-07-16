@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ARABIC
- * 
- *  Демонстрация использования метода ARABIC класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ARABIC_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ARABIC
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to convert a Roman numeral to Arabic using ApiWorksheetFunction.ARABIC.
+ * It converts "MCCL" to its Arabic equivalent and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как преобразовать римскую цифру в арабскую с помощью ApiWorksheetFunction.ARABIC.
+ * Он преобразует «MCCL» в его арабский эквивалент и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

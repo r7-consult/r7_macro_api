@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CODE
- * 
- *  Демонстрация использования метода CODE класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CODE_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CODE
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the code number from your computer's character set for the first character in the specified text string.
+ * It gets the code number for the first character of "office" and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть кодовый номер из набора символов вашего компьютера для первого символа в указанной текстовой строке.
+ * Он получает кодовый номер для первого символа «office» и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetVisible
- * 
- *  Демонстрация использования метода GetVisible класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetVisible_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetVisible
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the state of sheet visibility.
+ * It sets the active worksheet to visible and then displays its visibility status.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить состояние видимости листа.
+ * Он устанавливает активный лист видимым, а затем отображает его статус видимости.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

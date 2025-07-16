@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetPrintHeadings
- * 
- *  Демонстрация использования метода SetPrintHeadings класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetPrintHeadings_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetPrintHeadings
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to specify whether the current sheet row/column headings must be printed or not.
+ * It sets the print headings to true and then displays the setting.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как указать, должны ли печататься заголовки строк/столбцов текущего листа.
+ * Он устанавливает печать заголовков в значение true, а затем отображает настройку.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

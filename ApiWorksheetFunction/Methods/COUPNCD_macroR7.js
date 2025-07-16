@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUPNCD
- * 
- *  Демонстрация использования метода COUPNCD класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUPNCD_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUPNCD
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the next coupon date after the settlement date.
+ * It calculates the next coupon date for specified dates and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть следующую дату купона после даты расчетов.
+ * Он вычисляет следующую дату купона для указанных дат и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

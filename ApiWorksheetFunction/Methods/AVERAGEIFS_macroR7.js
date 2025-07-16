@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.AVERAGEIFS
- * 
- *  Демонстрация использования метода AVERAGEIFS класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file AVERAGEIFS_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.AVERAGEIFS
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to find the average (arithmetic mean) for the cells specified by a given set of conditions or criteria.
+ * It sets up data for year, products, and income, then calculates the average income for products containing "Apples" in the year 2016, and displays the result in cell E6.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как найти среднее (арифметическое) для ячеек, указанных заданным набором условий или критериев.
+ * Он настраивает данные для года, продуктов и дохода, затем вычисляет средний доход для продуктов, содержащих «Яблоки» в 2016 году, и отображает результат в ячейке E6.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

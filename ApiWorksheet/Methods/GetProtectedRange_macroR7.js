@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetProtectedRange
- * 
- *  Демонстрация использования метода GetProtectedRange класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetProtectedRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetProtectedRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an object that represents the protected range.
+ * It adds a protected range to the worksheet, and then retrieves it to set its title.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект, представляющий защищенный диапазон.
+ * Он добавляет защищенный диапазон на лист, а затем извлекает его, чтобы установить его заголовок.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUNTA
- * 
- *  Демонстрация использования метода COUNTA класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUNTA_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUNTA
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to count a number of cells in a range that are not empty using ApiWorksheetFunction.COUNTA.
+ * It sets up numbers and strings in different columns, and then counts the number of non-empty cells in the range A1:C3, displaying the result in cell D3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как подсчитать количество непустых ячеек в диапазоне с помощью ApiWorksheetFunction.COUNTA.
+ * Он настраивает числа и строки в разных столбцах, а затем подсчитывает количество непустых ячеек в диапазоне A1:C3, отображая результат в ячейке D3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

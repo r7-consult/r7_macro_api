@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUNT
- * 
- *  Демонстрация использования метода COUNT класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUNT_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUNT
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to count a number of cells in a range that contains numbers, ignoring empty cells or those with text, using ApiWorksheetFunction.COUNT.
+ * It sets up numbers and strings in different columns, and then counts the number of cells containing numbers in the range A1:C3, displaying the result in cell D3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как подсчитать количество ячеек в диапазоне, содержащих числа, игнорируя пустые ячейки или ячейки с текстом, с помощью ApiWorksheetFunction.COUNT.
+ * Он настраивает числа и строки в разных столбцах, а затем подсчитывает количество ячеек, содержащих числа в диапазоне A1:C3, отображая результат в ячейке D3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

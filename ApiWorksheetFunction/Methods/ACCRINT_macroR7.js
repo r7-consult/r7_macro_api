@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ACCRINT
- * 
- *  Демонстрация использования метода ACCRINT класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ACCRINT_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ACCRINT
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the accrued interest for a security that pays periodic interest.
+ * It calculates the accrued interest for a security with specified issue date, first interest date, settlement date, annual rate, par value, and frequency, then displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть начисленные проценты по ценной бумаге, которая выплачивает периодические проценты.
+ * Он вычисляет начисленные проценты по ценной бумаге с указанной датой выпуска, датой первого процента, датой расчетов, годовой ставкой, номинальной стоимостью и частотой, а затем отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

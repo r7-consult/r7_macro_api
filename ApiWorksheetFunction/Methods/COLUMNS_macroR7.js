@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COLUMNS
- * 
- *  Демонстрация использования метода COLUMNS класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COLUMNS_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COLUMNS
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the number of columns in the cell range using ApiWorksheetFunction.COLUMNS.
+ * It sets up two columns of data, and then displays the number of columns in the range A1:B3 in cell B4.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть количество столбцов в диапазоне ячеек с помощью ApiWorksheetFunction.COLUMNS.
+ * Он настраивает два столбца данных, а затем отображает количество столбцов в диапазоне A1:B3 в ячейке B4.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

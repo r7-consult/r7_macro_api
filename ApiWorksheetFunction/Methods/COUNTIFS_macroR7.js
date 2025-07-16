@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUNTIFS
- * 
- *  Демонстрация использования метода COUNTIFS класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUNTIFS_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUNTIFS
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to count a number of cells specified by a given set of conditions or criteria.
+ * It sets up data for buyers, products, and quantity, and then counts the number of cells where the product contains "apples" and the quantity is "45", displaying the result in cell E6.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как подсчитать количество ячеек, указанных заданным набором условий или критериев.
+ * Он настраивает данные для покупателей, продуктов и количества, а затем подсчитывает количество ячеек, где продукт содержит «яблоки», а количество равно «45», отображая результат в ячейке E6.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

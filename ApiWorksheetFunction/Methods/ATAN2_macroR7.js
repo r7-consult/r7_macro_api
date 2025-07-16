@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ATAN2
- * 
- *  Демонстрация использования метода ATAN2 класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ATAN2_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ATAN2
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the arctangent of the specified x and y coordinates, in radians between -Pi and Pi, excluding -Pi.
+ * It calculates the arctangent of coordinates (1, -9) and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть арктангенс указанных координат x и y в радианах в диапазоне от -Pi до Pi, исключая -Pi.
+ * Он вычисляет арктангенс координат (1, -9) и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

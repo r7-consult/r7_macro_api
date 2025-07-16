@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetLeftMargin
- * 
- *  Демонстрация использования метода SetLeftMargin класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetLeftMargin_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetLeftMargin
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the left margin of the sheet.
+ * It sets the left margin to 20.8 mm and then displays the updated margin.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить левое поле листа.
+ * Он устанавливает левое поле на 20,8 мм, а затем отображает обновленное поле.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

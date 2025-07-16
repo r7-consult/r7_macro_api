@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetPageOrientation
- * 
- *  Демонстрация использования метода GetPageOrientation класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetPageOrientation_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetPageOrientation
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the page orientation of the sheet.
+ * It retrieves the page orientation and displays it in cell C1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить ориентацию страницы листа.
+ * Он извлекает ориентацию страницы и отображает ее в ячейке C1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

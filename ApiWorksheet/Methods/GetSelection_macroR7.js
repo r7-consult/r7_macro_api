@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetSelection
- * 
- *  Демонстрация использования метода GetSelection класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetSelection_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetSelection
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an object that represents the selected range.
+ * It gets the current selection from the worksheet and then sets its value to "selected".
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект, представляющий выбранный диапазон.
+ * Он получает текущее выделение из листа, а затем устанавливает его значение в «selected».
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetRowHeight
- * 
- *  Демонстрация использования метода SetRowHeight класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetRowHeight_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetRowHeight
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the height of the specified row measured in points.
+ * It sets the height of row 0 to 30 points.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить высоту указанной строки, измеряемую в пунктах.
+ * Он устанавливает высоту строки 0 на 30 пунктов.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

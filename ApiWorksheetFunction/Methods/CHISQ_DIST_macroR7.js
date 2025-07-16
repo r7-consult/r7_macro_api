@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHISQ_DIST
- * 
- *  Демонстрация использования метода CHISQ_DIST класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHISQ_DIST_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHISQ_DIST
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the left-tailed probability of the chi-squared distribution.
+ * It calculates the left-tailed probability for specified parameters and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть левостороннюю вероятность распределения хи-квадрат.
+ * Он вычисляет левостороннюю вероятность для указанных параметров и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

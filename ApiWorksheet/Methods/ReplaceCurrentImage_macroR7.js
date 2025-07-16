@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.ReplaceCurrentImage
- * 
- *  Демонстрация использования метода ReplaceCurrentImage класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file ReplaceCurrentImage_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.ReplaceCurrentImage
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to replace the current image with a new one.
+ * It adds an image to the worksheet and then replaces it with a different image from a URL.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как заменить текущее изображение новым.
+ * Он добавляет изображение на лист, а затем заменяет его другим изображением из URL-адреса.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

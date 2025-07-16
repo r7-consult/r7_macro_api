@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.AVERAGEA
- * 
- *  Демонстрация использования метода AVERAGEA класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file AVERAGEA_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.AVERAGEA
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the average (arithmetic mean) of the specified arguments.
+ * It calculates the average of a given set of numbers and boolean values, and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть среднее (арифметическое) значение указанных аргументов.
+ * Он вычисляет среднее значение заданного набора чисел и логических значений и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

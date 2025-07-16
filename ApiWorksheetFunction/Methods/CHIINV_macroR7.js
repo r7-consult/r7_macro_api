@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHIINV
- * 
- *  Демонстрация использования метода CHIINV класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHIINV_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHIINV
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the inverse of the right-tailed probability of the chi-squared distribution.
+ * It calculates the inverse of the right-tailed probability for specified parameters and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть обратную правостороннюю вероятность распределения хи-квадрат.
+ * Он вычисляет обратную правостороннюю вероятность для указанных параметров и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHOOSE
- * 
- *  Демонстрация использования метода CHOOSE класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHOOSE_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHOOSE
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to choose a value or action to perform from a list of values, based on an index number.
+ * It chooses the value at index 2 (which is 4) from the list (3, 4, 89, 76, 0) and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как выбрать значение или действие для выполнения из списка значений на основе номера индекса.
+ * Он выбирает значение с индексом 2 (которое равно 4) из списка (3, 4, 89, 76, 0) и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

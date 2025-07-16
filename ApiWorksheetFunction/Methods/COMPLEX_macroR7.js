@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COMPLEX
- * 
- *  Демонстрация использования метода COMPLEX класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COMPLEX_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COMPLEX
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to convert real and imaginary coefficients into a complex number using ApiWorksheetFunction.COMPLEX.
+ * It converts real part -2 and imaginary part 2.5 with suffix "i" into a complex number and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как преобразовать действительные и мнимые коэффициенты в комплексное число с помощью ApiWorksheetFunction.COMPLEX.
+ * Он преобразует действительную часть -2 и мнимую часть 2,5 с суффиксом «i» в комплексное число и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

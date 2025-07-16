@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetAllShapes
- * 
- *  Демонстрация использования метода GetAllShapes класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetAllShapes_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetAllShapes
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get all shapes from the sheet.
+ * It adds a shape to the worksheet, and then retrieves all shapes to modify the first one by clearing its content, setting vertical text alignment, and adding a new paragraph.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить все фигуры с листа.
+ * Он добавляет фигуру на лист, а затем извлекает все фигуры, чтобы изменить первую, очистив ее содержимое, установив вертикальное выравнивание текста и добавив новый абзац.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

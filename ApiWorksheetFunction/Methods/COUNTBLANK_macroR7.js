@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUNTBLANK
- * 
- *  Демонстрация использования метода COUNTBLANK класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUNTBLANK_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUNTBLANK
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to count a number of empty cells in a specified range of cells using ApiWorksheetFunction.COUNTBLANK.
+ * It sets up numbers and strings in different columns, and then counts the number of empty cells in the range A1:C3, displaying the result in cell D3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как подсчитать количество пустых ячеек в указанном диапазоне ячеек с помощью ApiWorksheetFunction.COUNTBLANK.
+ * Он настраивает числа и строки в разных столбцах, а затем подсчитывает количество пустых ячеек в диапазоне A1:C3, отображая результат в ячейке D3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

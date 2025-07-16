@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetPrintGridlines
- * 
- *  Демонстрация использования метода GetPrintGridlines класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetPrintGridlines_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetPrintGridlines
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the page PrintGridlines property which specifies whether the sheet gridlines must be printed or not.
+ * It sets the print gridlines to true and then displays the setting.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить свойство PrintGridlines страницы, которое указывает, должны ли печататься линии сетки листа.
+ * Он устанавливает печать линий сетки в значение true, а затем отображает настройку.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

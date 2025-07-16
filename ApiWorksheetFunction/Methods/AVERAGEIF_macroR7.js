@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.AVERAGEIF
- * 
- *  Демонстрация использования метода AVERAGEIF класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file AVERAGEIF_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.AVERAGEIF
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to find the average (arithmetic mean) for the cells specified by a given condition or criteria.
+ * It sets up a list of numbers in column A, calculates the average of numbers greater than 45, and displays the result in cell C1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как найти среднее (арифметическое) для ячеек, указанных заданным условием или критерием.
+ * Он настраивает список чисел в столбце A, вычисляет среднее значение чисел, превышающих 45, и отображает результат в ячейке C1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

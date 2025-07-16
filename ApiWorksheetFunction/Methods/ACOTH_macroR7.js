@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ACOTH
- * 
- *  Демонстрация использования метода ACOTH класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ACOTH_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ACOTH
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the inverse hyperbolic cotangent of a number.
+ * It calculates the inverse hyperbolic cotangent of 3 and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть обратный гиперболический котангенс числа.
+ * Он вычисляет обратный гиперболический котангенс 3 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

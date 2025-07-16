@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUNTIF
- * 
- *  Демонстрация использования метода COUNTIF класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUNTIF_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUNTIF
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to count a number of cells within a range that meet the given condition using ApiWorksheetFunction.COUNTIF.
+ * It sets up lists of fruits and numbers, and then counts the number of cells in the range A1:B3 that end with "es", displaying the result in cell D3.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как подсчитать количество ячеек в диапазоне, которые соответствуют заданному условию, с помощью ApiWorksheetFunction.COUNTIF.
+ * Он настраивает списки фруктов и чисел, а затем подсчитывает количество ячеек в диапазоне A1:B3, которые заканчиваются на «es», отображая результат в ячейке D3.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

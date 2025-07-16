@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetBottomMargin
- * 
- *  Демонстрация использования метода SetBottomMargin класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetBottomMargin_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetBottomMargin
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the bottom margin of the sheet.
+ * It sets the bottom margin to 25.1 mm and then displays the updated margin.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить нижнее поле листа.
+ * Он устанавливает нижнее поле на 25,1 мм, а затем отображает обновленное поле.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BIN2HEX
- * 
- *  Демонстрация использования метода BIN2HEX класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BIN2HEX_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BIN2HEX
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to convert a binary number to hexadecimal using ApiWorksheetFunction.BIN2HEX.
+ * It converts the binary number 1110011100 to its hexadecimal equivalent with 4 characters, and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как преобразовать двоичное число в шестнадцатеричное с помощью ApiWorksheetFunction.BIN2HEX.
+ * Он преобразует двоичное число 1110011100 в его шестнадцатеричный эквивалент с 4 символами и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

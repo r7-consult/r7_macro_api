@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BETA_DIST
- * 
- *  Демонстрация использования метода BETA_DIST класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BETA_DIST_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BETA_DIST
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the cumulative beta probability density function using ApiWorksheetFunction.BETA_DIST.
+ * It calculates the cumulative beta probability density function for specified parameters and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть кумулятивную функцию плотности вероятности бета-распределения с помощью ApiWorksheetFunction.BETA_DIST.
+ * Он вычисляет кумулятивную функцию плотности вероятности бета-распределения для указанных параметров и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

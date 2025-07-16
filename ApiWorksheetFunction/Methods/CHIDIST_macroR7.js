@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CHIDIST
- * 
- *  Демонстрация использования метода CHIDIST класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CHIDIST_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CHIDIST
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the right-tailed probability of the chi-squared distribution using ApiWorksheetFunction.CHIDIST.
+ * It calculates the right-tailed probability for specified parameters and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть правостороннюю вероятность распределения хи-квадрат с помощью ApiWorksheetFunction.CHIDIST.
+ * Он вычисляет правостороннюю вероятность для указанных параметров и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

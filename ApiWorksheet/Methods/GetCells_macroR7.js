@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetCells
- * 
- *  Демонстрация использования метода GetCells класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetCells_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetCells
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ApiRange that represents all the cells on the worksheet.
+ * It retrieves all cells from the worksheet and then sets their fill color.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить ApiRange, представляющий все ячейки на листе.
+ * Он извлекает все ячейки из листа, а затем устанавливает их цвет заливки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

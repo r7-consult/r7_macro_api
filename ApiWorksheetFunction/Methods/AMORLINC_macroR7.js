@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.AMORLINC
- * 
- *  Демонстрация использования метода AMORLINC класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file AMORLINC_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.AMORLINC
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the prorated linear depreciation of an asset for each accounting period.
+ * It calculates the prorated linear depreciation for an asset with specified cost, date purchased, first period, salvage, period, rate, and basis, then displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть пропорциональную линейную амортизацию актива за каждый учетный период.
+ * Он вычисляет пропорциональную линейную амортизацию для актива с указанной стоимостью, датой покупки, первым периодом, ликвидационной стоимостью, периодом, ставкой и базисом, а затем отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

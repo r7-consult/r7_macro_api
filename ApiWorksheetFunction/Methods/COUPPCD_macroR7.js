@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COUPPCD
- * 
- *  Демонстрация использования метода COUPPCD класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COUPPCD_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COUPPCD
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the previous coupon date before the settlement date.
+ * It calculates the previous coupon date for specified dates and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть предыдущую дату купона до даты расчетов.
+ * Он вычисляет предыдущую дату купона для указанных дат и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

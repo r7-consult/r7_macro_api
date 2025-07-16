@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COMBIN
- * 
- *  Демонстрация использования метода COMBIN класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COMBIN_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COMBIN
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the number of combinations for a given number of items using ApiWorksheetFunction.COMBIN.
+ * It calculates the number of combinations for 67 items taken 7 at a time and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть количество комбинаций для заданного числа элементов с помощью ApiWorksheetFunction.COMBIN.
+ * Он вычисляет количество комбинаций для 67 элементов, взятых по 7 за раз, и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

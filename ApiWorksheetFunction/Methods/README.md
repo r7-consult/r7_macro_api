@@ -37,7 +37,7 @@ This directory contains JavaScript macros for various Worksheet Function methods
 - [BETADIST_macroR7.js](BETADIST_macroR7.js)
 - [BETAINV_macroR7.js](BETAINV_macroR7.js)
 - [BIN2DEC_macroR7.js](BIN2DEC_macroR7.js)
-- [BIN2HEX_macroR7.7js](BIN2HEX_macroR7.7js)
+- [BIN2HEX_macroR7.js](BIN2HEX_macroR7.js)
 - [BIN2OCT_macroR7.js](BIN2OCT_macroR7.js)
 - [BINOM_DIST_macroR7.js](BINOM_DIST_macroR7.js)
 - [BINOM_DIST_RANGE_macroR7.js](BINOM_DIST_RANGE_macroR7.js)

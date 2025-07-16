@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.Paste
- * 
- *  Демонстрация использования метода Paste класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file Paste_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.Paste
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to paste data from the clipboard.
+ * It pastes the content from the clipboard to the active worksheet.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вставить данные из буфера обмена.
+ * Он вставляет содержимое из буфера обмена в активный лист.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

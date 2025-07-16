@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.RefreshAllPivots
- * 
- *  Демонстрация использования метода RefreshAllPivots класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file RefreshAllPivots_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.RefreshAllPivots
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to refresh all pivot tables on the sheet.
+ * It creates multiple pivot tables, adds data fields to them, and then refreshes all pivot tables.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как обновить все сводные таблицы на листе.
+ * Он создает несколько сводных таблиц, добавляет в них поля данных, а затем обновляет все сводные таблицы.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

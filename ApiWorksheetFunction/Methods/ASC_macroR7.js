@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ASC
- * 
- *  Демонстрация использования метода ASC класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ASC_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ASC
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to change full-width (double-byte) characters to half-width (single-byte) characters for double-byte character set (DBCS) languages using ApiWorksheetFunction.ASC.
+ * It converts "text" to its half-width equivalent and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как изменить полноширинные (двухбайтовые) символы на полуширинные (однобайтовые) символы для языков с двухбайтовым набором символов (DBCS) с помощью ApiWorksheetFunction.ASC.
+ * Он преобразует «текст» в его полуширинный эквивалент и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

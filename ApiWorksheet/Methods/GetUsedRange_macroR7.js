@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetUsedRange
- * 
- *  Демонстрация использования метода GetUsedRange класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetUsedRange_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetUsedRange
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the ApiRange object that represents the used range on the specified worksheet.
+ * It retrieves the used range and then sets its fill color.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект ApiRange, представляющий используемый диапазон на указанном листе.
+ * Он извлекает используемый диапазон, а затем устанавливает его цвет заливки.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

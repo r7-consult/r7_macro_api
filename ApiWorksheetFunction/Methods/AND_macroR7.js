@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.AND
- * 
- *  Демонстрация использования метода AND класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file AND_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.AND
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to check whether all conditions in a test are true using ApiWorksheetFunction.AND.
+ * It evaluates a logical AND operation for a list of conditions and displays the result in cell C1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как проверить, истинны ли все условия в тесте, используя ApiWorksheetFunction.AND.
+ * Он вычисляет логическую операцию И для списка условий и отображает результат в ячейке C1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ACOSH
- * 
- *  Демонстрация использования метода ACOSH класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ACOSH_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ACOSH
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the inverse hyperbolic cosine of a number.
+ * It calculates the inverse hyperbolic cosine of 3.25 and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть обратный гиперболический косинус числа.
+ * Он вычисляет обратный гиперболический косинус 3,25 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

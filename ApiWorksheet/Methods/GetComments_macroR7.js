@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetComments
- * 
- *  Демонстрация использования метода GetComments класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetComments_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetComments
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get an array of ApiComment objects.
+ * It adds a comment to a range, and then retrieves all comments from the worksheet to display the text of the first one.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить массив объектов ApiComment.
+ * Он добавляет комментарий к диапазону, а затем извлекает все комментарии из листа для отображения текста первого из них.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

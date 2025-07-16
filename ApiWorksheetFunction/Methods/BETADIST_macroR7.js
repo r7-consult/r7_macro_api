@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BETADIST
- * 
- *  Демонстрация использования метода BETADIST класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BETADIST_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BETADIST
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the beta probability distribution function using ApiWorksheetFunction.BETADIST.
+ * It calculates the beta probability distribution function for specified parameters and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть функцию плотности вероятности бета-распределения с помощью ApiWorksheetFunction.BETADIST.
+ * Он вычисляет функцию плотности вероятности бета-распределения для указанных параметров и отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

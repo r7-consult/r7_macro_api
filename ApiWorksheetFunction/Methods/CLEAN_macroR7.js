@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CLEAN
- * 
- *  Демонстрация использования метода CLEAN класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CLEAN_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CLEAN
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to remove all nonprintable characters from the text using ApiWorksheetFunction.CLEAN.
+ * It cleans the text "\ntext" and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как удалить все непечатаемые символы из текста с помощью ApiWorksheetFunction.CLEAN.
+ * Он очищает текст «\ntext» и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.SetPageOrientation
- * 
- *  Демонстрация использования метода SetPageOrientation класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file SetPageOrientation_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.SetPageOrientation
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to set the page orientation.
+ * It sets the page orientation to "xlPortrait" and then displays the updated orientation.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как установить ориентацию страницы.
+ * Он устанавливает ориентацию страницы на «xlPortrait», а затем отображает обновленную ориентацию.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

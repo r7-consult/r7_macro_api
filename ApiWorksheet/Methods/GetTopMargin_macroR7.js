@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetTopMargin
- * 
- *  Демонстрация использования метода GetTopMargin класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetTopMargin_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetTopMargin
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the top margin of the sheet.
+ * It retrieves the top margin and displays it in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить верхнее поле листа.
+ * Он извлекает верхнее поле и отображает его в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

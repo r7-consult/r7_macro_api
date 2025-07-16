@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BESSELJ
- * 
- *  Демонстрация использования метода BESSELJ класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BESSELJ_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BESSELJ
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the Bessel function Jn(x) using ApiWorksheetFunction.BESSELJ.
+ * It calculates the Bessel function for x=1.9 and n=2, and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть функцию Бесселя Jn(x) с помощью ApiWorksheetFunction.BESSELJ.
+ * Он вычисляет функцию Бесселя для x=1,9 и n=2 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

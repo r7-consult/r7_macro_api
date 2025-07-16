@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ATAN
- * 
- *  Демонстрация использования метода ATAN класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ATAN_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ATAN
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the arctangent of a number.
+ * It calculates the arctangent of 0.25 and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть арктангенс числа.
+ * Он вычисляет арктангенс 0,25 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

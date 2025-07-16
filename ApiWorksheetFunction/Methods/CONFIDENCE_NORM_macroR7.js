@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CONFIDENCE_NORM
- * 
- *  Демонстрация использования метода CONFIDENCE_NORM класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CONFIDENCE_NORM_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CONFIDENCE_NORM
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the confidence interval for a population mean, using a normal distribution.
+ * It calculates the confidence interval for specified alpha, standard deviation, and size, and displays the result in cell B2.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть доверительный интервал для среднего значения генеральной совокупности, используя нормальное распределение.
+ * Он вычисляет доверительный интервал для заданных альфа, стандартного отклонения и размера, а затем отображает результат в ячейке B2.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CEILING_MATH
- * 
- *  Демонстрация использования метода CEILING_MATH класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CEILING_MATH_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CEILING_MATH
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to round a number up, to the nearest integer or to the nearest multiple of significance using ApiWorksheetFunction.CEILING_MATH.
+ * It rounds -5.5 up to the nearest multiple of 2 with mode 1, and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как округлить число до ближайшего целого числа или до ближайшего кратного значения.
+ * Он округляет -5,5 до ближайшего кратного 2 с режимом 1 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

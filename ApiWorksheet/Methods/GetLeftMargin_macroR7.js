@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetLeftMargin
- * 
- *  Демонстрация использования метода GetLeftMargin класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetLeftMargin_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetLeftMargin
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the left margin of the sheet.
+ * It retrieves the left margin and displays it in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить левое поле листа.
+ * Он извлекает левое поле и отображает его в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

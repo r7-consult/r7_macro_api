@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.CSCH
- * 
- *  Демонстрация использования метода CSCH класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file CSCH_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.CSCH
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the hyperbolic cosecant of an angle using ApiWorksheetFunction.CSCH.
+ * It calculates the hyperbolic cosecant of 0.785398 radians and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть гиперболический косеканс угла с помощью ApiWorksheetFunction.CSCH.
+ * Он вычисляет гиперболический косеканс 0,785398 радиан и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BIN2OCT
- * 
- *  Демонстрация использования метода BIN2OCT класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BIN2OCT_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BIN2OCT
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to convert a binary number to octal using ApiWorksheetFunction.BIN2OCT.
+ * It converts the binary number 1110011100 to its octal equivalent with 4 characters, and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как преобразовать двоичное число в восьмеричное с помощью ApiWorksheetFunction.BIN2OCT.
+ * Он преобразует двоичное число 1110011100 в его восьмеричный эквивалент с 4 символами и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

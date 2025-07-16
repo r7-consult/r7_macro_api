@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.BITAND
- * 
- *  Демонстрация использования метода BITAND класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file BITAND_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.BITAND
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return a bitwise "AND" of two numbers using ApiWorksheetFunction.BITAND.
+ * It calculates the bitwise AND of 13 and 25, and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть побитовое «И» двух чисел с помощью ApiWorksheetFunction.BITAND.
+ * Он вычисляет побитовое И для 13 и 25 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

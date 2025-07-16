@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.Move
- * 
- *  Демонстрация использования метода Move класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file Move_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.Move
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to move the sheet to another location in the workbook.
+ * It adds a new sheet and then moves it before the first sheet.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как переместить лист в другое место в рабочей книге.
+ * Он добавляет новый лист, а затем перемещает его перед первым листом.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

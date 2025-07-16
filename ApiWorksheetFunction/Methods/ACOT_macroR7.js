@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.ACOT
- * 
- *  Демонстрация использования метода ACOT класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file ACOT_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.ACOT
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the arccotangent of a number, in radians in the range from 0 to Pi.
+ * It calculates the arccotangent of 0 and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть арккотангенс числа в радианах в диапазоне от 0 до Pi.
+ * Он вычисляет арккотангенс 0 и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

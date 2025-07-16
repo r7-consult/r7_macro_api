@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheetFunction.COMBINA
- * 
- *  Демонстрация использования метода COMBINA класса ApiWorksheetFunction
- * https://r7-consult.ru/
+ * @file COMBINA_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheetFunction.COMBINA
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to return the number of combinations with repetitions for a given number of items using ApiWorksheetFunction.COMBINA.
+ * It calculates the number of combinations with repetitions for 7 items taken 2 at a time and displays the result in cell A1.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как вернуть количество комбинаций с повторениями для заданного числа элементов с помощью ApiWorksheetFunction.COMBINA.
+ * Он вычисляет количество комбинаций с повторениями для 7 элементов, взятых по 2 за раз, и отображает результат в ячейке A1.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {

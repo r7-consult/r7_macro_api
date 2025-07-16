@@ -1,8 +1,21 @@
 /**
- * R7 Office JavaScript макрос - ApiWorksheet.GetFreezePanes
- * 
- *  Демонстрация использования метода GetFreezePanes класса ApiWorksheet
- * https://r7-consult.ru/
+ * @file GetFreezePanes_macroR7.js
+ * @brief R7 Office JavaScript Macro - ApiWorksheet.GetFreezePanes
+ * @author R7-Consult
+ * @version 1.0.0
+ * @date July 15, 2025
+ *
+ * @description
+ * This macro demonstrates how to get the freeze panes object of a worksheet.
+ * It freezes the first column, gets the freeze panes object, and then displays the address of the frozen range.
+ *
+ * @description (Russian)
+ * Этот макрос демонстрирует, как получить объект закрепленных областей листа.
+ * Он закрепляет первый столбец, получает объект закрепленных областей, а затем отображает адрес закрепленного диапазона.
+ *
+ * @returns {void}
+ *
+ * @see https://r7-consult.com/
  */
 
 (function() {
